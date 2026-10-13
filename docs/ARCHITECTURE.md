@@ -314,7 +314,7 @@ Exa search hits already carry content.
 | Tungsten former employees | 328 | 150 | 26 | 2 Exa people queries |
 | Tungsten customers | 77 (plus people named on case studies) | 50 | 29 | 30 stage-5 people searches |
 | Tungsten competitors | 315 | 50 | 28 | 5 Exa people queries |
-| Polish terminal operators | 77 | 50 | 33 | 35 stage-5 people searches |
+| Polish terminal operators | 77 (plus people named on web pages) | 50 | 33 | 35 stage-5 people searches |
 | Polish freight operators | 898 | all | never reached 25 (20 at the end) | nothing: searched as deep as allowed |
 | Polish infrastructure planners | 425 | all | never reached 25 (0 at the end) | nothing: searched as deep as allowed |
 

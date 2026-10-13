@@ -21,11 +21,11 @@ committed in [`results/`](results/).
 | Brief | Group | Search | Candidates read | Passed verification | Met the brief (LLM) | Returned | Borderline (for review) |
 |---|---|---|---|---|---|---|---|
 | Tungsten | Former employees (left 6 months-3 years ago) | stopped early: 150 of 328 profiles read | 150 | 27 | 26 | **20** | 1 |
-| Tungsten | Customers (hands-on users) | stopped early: 50 of 77 profiles read, 30 people searches not run | 94 | 52 | 33 | **20** | 10 |
+| Tungsten | Customers (hands-on users) | stopped early: 50 of 77 profiles read, 30 people searches not run; plus 45 people named on case studies | 94 | 52 | 33 | **20** | 10 |
 | Tungsten | Competitor product / GTM / partnerships leaders | stopped early: 50 of 315 profiles read | 50 | 37 | 28 | **20** | 5 |
 | Polish | Former network-planning / train-path / access-charge leads | read every profile found | 431 | 20 | 0 | **0** | 8 |
 | Polish | Former operations / commercial / fleet leads at private freight operators | read every profile found | 903 | 108 | 20 | **20** | 10 |
-| Polish | Terminal and intermodal operators | stopped early: 50 of 77 profiles read, 35 people searches not run | 68 | 37 | 30 | **20** | 7 |
+| Polish | Terminal and intermodal operators | stopped early: 50 of 77 profiles read, 35 people searches not run; plus 21 people named on web pages | 68 | 37 | 30 | **20** | 7 |
 
 **How to read this table:**
 - **The counts are not the limit of what the search can find.** A group stops searching
@@ -36,9 +36,11 @@ committed in [`results/`](results/).
 - **A group still short of 25 keeps going** (later Google pages, Exa, more
   organisations) and reads everything it can. That happened for Polish freight and
   infrastructure.
-- **"Candidates read"** counts one per person after merging duplicates, including people
-  named on case studies. "Met the brief" is the LLM's `meets` verdict; the best 20 of
-  those are returned.
+- **"Candidates read"** counts one per person after merging duplicates. It includes
+  people named on case studies and other web pages, not only the profiles in the
+  "Search" column: Tungsten customers are 50 people from profiles plus 45 from case
+  studies, with one person found both ways. "Met the brief" is the LLM's `meets` verdict;
+  the best 20 of those are returned.
 
 Both are fresh full runs with one command (2026-10-11): Tungsten $0.74 in 5m 30s, Polish
 $2.65 in 16m 35s. Every returned expert has a LinkedIn profile. The deliverable

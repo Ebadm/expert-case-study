@@ -1,0 +1,271 @@
+{
+  "title": "Tungsten Automation commercial and technical due diligence",
+  "client": "fictional global private-equity firm",
+  "project_type": "commercial and technical due diligence",
+  "objective": "Evaluate Tungsten Automation's product competitiveness, customer retention and strategic outlook after the rebrand from Kofax, in a market where LLM-based extraction has reset buyer expectations for document capture. Speak with former employees, customers (current or former) and competitor leaders.",
+  "target_organisation": {
+    "name": "Tungsten Automation",
+    "aliases": [
+      "Kofax"
+    ]
+  },
+  "sector": "Intelligent document processing, capture and workflow automation",
+  "excluded_organisations": [
+    {
+      "organisation": {
+        "name": "Tungsten Automation",
+        "aliases": [
+          "Kofax"
+        ]
+      },
+      "scope": "current_employees",
+      "applies_to_group_ids": [],
+      "source_quote": "Do not include current employees of Tungsten Automation. Note that the same company appears as Kofax on most profiles, and both names are excluded."
+    }
+  ],
+  "global_hard_constraints": [
+    {
+      "description": "Must not be a current employee of Tungsten Automation or of Kofax, its former name.",
+      "source_quote": "Do not include current employees of Tungsten Automation. Note that the same company appears as Kofax on most profiles, and both names are excluded."
+    }
+  ],
+  "global_preferences": [],
+  "groups": [
+    {
+      "group_id": "former_employees",
+      "name": "Former employees of Tungsten Automation",
+      "description": "Former employees of Tungsten Automation (Kofax) who can give an internal view of product strategy and roadmap execution, the response to LLM-based extraction, sales-cycle complexity and competitive pressure, repeated customer product gaps, and retention and culture through the rebrand.",
+      "eligible_organisations": [
+        {
+          "name": "Tungsten Automation",
+          "aliases": [
+            "Kofax"
+          ]
+        }
+      ],
+      "eligible_organisation_types": [],
+      "required_employment_status": "former",
+      "departure_window": {
+        "min_months_since_departure": 6,
+        "max_months_since_departure": 36,
+        "source_quote": "Left in the last 3 years. ... Former employees must have left at least 6 months ago."
+      },
+      "target_roles": [
+        "Product Manager",
+        "Engineer",
+        "Solutions Architect",
+        "Sales Executive",
+        "GTM leader",
+        "VP or Director in Product",
+        "VP or Director in Engineering",
+        "VP or Director in Sales",
+        "VP or Director in Partnerships"
+      ],
+      "excluded_roles": [],
+      "relevant_topics": [
+        "product strategy and roadmap execution",
+        "LLM-based extraction",
+        "sales-cycle complexity",
+        "competitive pressure",
+        "customer product gaps",
+        "retention and culture through the rebrand"
+      ],
+      "required_evidence": [
+        "Public profile or announcement showing employment at Tungsten Automation or Kofax with dates inside the departure window"
+      ],
+      "hard_constraints": [
+        {
+          "description": "Must be a former employee of Tungsten Automation (Kofax).",
+          "source_quote": "Former employees"
+        },
+        {
+          "description": "Must have left Tungsten Automation at most 36 months ago.",
+          "source_quote": "Left in the last 3 years."
+        },
+        {
+          "description": "Must have left Tungsten Automation at least 6 months ago.",
+          "source_quote": "Former employees must have left at least 6 months ago."
+        }
+      ],
+      "preferences": [
+        {
+          "description": "Ideally a former Product Manager, Engineer, Solutions Architect, Sales Executive or GTM leader, or an ex VP or Director in Product, Engineering, Sales or Partnerships.",
+          "source_quote": "Ideal titles: former Product Managers, Engineers, Solutions Architects, Sales Executives and GTM leaders; ex VP or Director in Product, Engineering, Sales or Partnerships."
+        }
+      ],
+      "screening_questions": [
+        "What was your role, and which teams or customer accounts did you work with?",
+        "What were the biggest product or commercial challenges during your time there?",
+        "How did the company position itself as LLM-based extraction entered the category?",
+        "Which product gaps or weaknesses did customers routinely flag?"
+      ],
+      "search_strategy": "Search public professional profiles (LinkedIn-style bios) for past employment at Kofax or Tungsten Automation, plus job titles above, and check dates. Also look at conference speaker pages, press coverage and podcasts that name Kofax or Tungsten Automation staff. Terms: Kofax, Tungsten Automation, former, with product, engineering, sales or partnerships titles.",
+      "query_languages": [
+        "en"
+      ],
+      "departure_dates": {
+        "left_on_or_after": "2023-10-11",
+        "left_on_or_before": "2026-04-11"
+      }
+    },
+    {
+      "group_id": "customers",
+      "name": "Customers of Tungsten Automation",
+      "description": "Current or former enterprise customers with direct experience implementing or running the product, able to compare production accuracy, total cost of ownership, support quality and switching behaviour.",
+      "eligible_organisations": [],
+      "eligible_organisation_types": [
+        "Enterprises that have implemented or run Tungsten Automation (Kofax) products"
+      ],
+      "required_employment_status": "current_or_former",
+      "departure_window": null,
+      "target_roles": [
+        "Head of Automation",
+        "Head of Document Processing",
+        "Head of Shared Services",
+        "IT Director",
+        "Automation CoE lead",
+        "decision-maker in enterprise software selection"
+      ],
+      "excluded_roles": [],
+      "relevant_topics": [
+        "intelligent document processing",
+        "production accuracy",
+        "total cost of ownership",
+        "support quality",
+        "vendor switching"
+      ],
+      "required_evidence": [
+        "Public case study, press release, conference talk or vendor reference naming the enterprise as a Kofax or Tungsten Automation customer"
+      ],
+      "hard_constraints": [
+        {
+          "description": "Must be a current or former customer of Tungsten Automation (Kofax).",
+          "source_quote": "Customers (current or former)"
+        },
+        {
+          "description": "Must have direct experience implementing or running the product in an enterprise.",
+          "source_quote": "Direct experience implementing or running the product in an enterprise, at meaningful volume."
+        }
+      ],
+      "preferences": [
+        {
+          "description": "Ideally a Head of Automation, Document Processing or Shared Services, IT Director, Automation CoE lead, or enterprise software selection decision-maker.",
+          "source_quote": "Ideal titles: Heads of Automation, Document Processing or Shared Services; IT Directors; Automation CoE leads; decision-makers in enterprise software selection."
+        },
+        {
+          "description": "Experience should be at meaningful volume in production.",
+          "source_quote": "at meaningful volume"
+        }
+      ],
+      "screening_questions": [
+        "Are you a current or former customer, and over what period?",
+        "What influenced your selection over the alternatives you evaluated?",
+        "How would you rate accuracy in production against what was promised in the pilot?",
+        "Have you considered switching vendors, and what would trigger it?"
+      ],
+      "search_strategy": "Search customer case studies, vendor reference pages, press releases and conference speaker pages that mention Kofax or Tungsten Automation deployments in large enterprises, then find the named automation, shared services or IT leaders in public bios. Terms: Kofax, Tungsten Automation, intelligent document processing, capture, automation CoE, shared services.",
+      "query_languages": [
+        "en"
+      ],
+      "departure_dates": null
+    },
+    {
+      "group_id": "competitors",
+      "name": "Competitor leaders",
+      "description": "Current or former product, go-to-market or partnerships leaders at competing vendors who can discuss competitive positioning and win/loss against Tungsten Automation.",
+      "eligible_organisations": [
+        {
+          "name": "ABBYY",
+          "aliases": []
+        },
+        {
+          "name": "Hyland",
+          "aliases": []
+        },
+        {
+          "name": "OpenText",
+          "aliases": []
+        },
+        {
+          "name": "IBM",
+          "aliases": []
+        },
+        {
+          "name": "Microsoft",
+          "aliases": []
+        }
+      ],
+      "eligible_organisation_types": [],
+      "required_employment_status": "current_or_former",
+      "departure_window": {
+        "min_months_since_departure": null,
+        "max_months_since_departure": 24,
+        "source_quote": "Current or former (up to 2 years out)"
+      },
+      "target_roles": [
+        "Product leader",
+        "Go-to-market leader",
+        "Partnerships leader"
+      ],
+      "excluded_roles": [
+        "founder",
+        "C-level"
+      ],
+      "relevant_topics": [
+        "competitive positioning",
+        "win/loss against Tungsten Automation"
+      ],
+      "required_evidence": [
+        "Public profile or announcement showing a current or former product, GTM or partnerships role at one of the named companies"
+      ],
+      "hard_constraints": [
+        {
+          "description": "Must be a current or former product, go-to-market or partnerships leader at ABBYY, Hyland, OpenText, IBM or Microsoft.",
+          "source_quote": "product, go-to-market or partnerships leaders at ABBYY, Hyland, OpenText, IBM or Microsoft"
+        },
+        {
+          "description": "Former staff must have left their competitor role at most 24 months ago.",
+          "source_quote": "up to 2 years out"
+        },
+        {
+          "description": "Must not be a founder or C-level executive.",
+          "source_quote": "No founders or C-level."
+        }
+      ],
+      "preferences": [],
+      "screening_questions": [],
+      "search_strategy": "Search for product, GTM and partnerships leaders at ABBYY, Hyland, OpenText, IBM and Microsoft in public bios, conference speaker pages, analyst event panels, and press quotes on document capture or intelligent document processing. Terms: ABBYY, Hyland, OpenText, IBM, Microsoft with product, go-to-market, partnerships, and Tungsten Automation or Kofax.",
+      "query_languages": [
+        "en"
+      ],
+      "departure_dates": {
+        "left_on_or_after": "2024-10-11",
+        "left_on_or_before": null
+      }
+    }
+  ],
+  "ambiguities": [
+    "Target was renamed from Kofax to Tungsten Automation in 2024; name and alias searches should cover both, as the brief directs.",
+    "The 6-month minimum departure rule is stated under Excluded companies for former employees; it is attached only to the former employees group, and it is unclear whether it also applies to former competitor leaders.",
+    "The 24-month departure window is attached to the competitors group as stated; it is unclear whether it also applies to former customers, who have no stated window.",
+    "'At meaningful volume' for customers is undefined and has been treated as a preference rather than a hard constraint.",
+    "Ideal titles for all groups have been treated as preferences that affect ranking, not eligibility, and target_roles lists them for ranking only.",
+    "Customers group has no named organisations; eligibility is defined by experience with the product, so reviewers should confirm whether customers must be enterprises of a given size or sector.",
+    "Competitor group names five organisations only; confirm whether staff of other competing vendors are out of scope.",
+    "The current-employee exclusion has been applied to all three groups, including customers and competitors, as the brief does not limit it."
+  ],
+  "schema_version": "1",
+  "brief_id": "tungsten_automation",
+  "run_date": "2026-10-11",
+  "source": {
+    "path": "briefs/raw/tungsten-automation.md",
+    "sha256": "4ed9274180fd3e32e4d49a4c7ff04006892af4433678c8b32bfd216f0abd3b47",
+    "text": "**Client:** fictional global private-equity firm\n\n**Project type:** commercial and technical due diligence\n\n**Target:** Tungsten Automation — intelligent document processing, capture and workflow automation. The company traded as Kofax until 2024, when it was renamed Tungsten Automation under private-equity ownership. Most public profiles and press coverage still say Kofax.\n\n**Timeline:** 1-2 weeks for initial outreach\n\n### Objective\n\nEvaluate the target's product competitiveness, customer retention and strategic outlook after the rebrand, in a market where LLM-based extraction has reset what buyers expect from document capture. We want to speak with three groups.\n\n### 1. Former employees\n\nLeft in the last 3 years. Internal view of product strategy and roadmap execution; how the business responded to LLM-based extraction entering the category; sales-cycle complexity and competitive pressure; product gaps customers flagged repeatedly; retention and culture through the rebrand.\n\n**Ideal titles:** former Product Managers, Engineers, Solutions Architects, Sales Executives and GTM leaders; ex VP or Director in Product, Engineering, Sales or Partnerships.\n\n**Screening questions:**\n\n- What was your role, and which teams or customer accounts did you work with?\n- What were the biggest product or commercial challenges during your time there?\n- How did the company position itself as LLM-based extraction entered the category?\n- Which product gaps or weaknesses did customers routinely flag?\n\n### 2. Customers (current or former)\n\nDirect experience implementing or running the product in an enterprise, at meaningful volume. We want to compare accuracy in production, total cost of ownership, support quality and switching behaviour.\n\n**Ideal titles:** Heads of Automation, Document Processing or Shared Services; IT Directors; Automation CoE leads; decision-makers in enterprise software selection.\n\n**Screening questions:**\n\n- Are you a current or former customer, and over what period?\n- What influenced your selection over the alternatives you evaluated?\n- How would you rate accuracy in production against what was promised in the pilot?\n- Have you considered switching vendors, and what would trigger it?\n\n### 3. Competitors\n\nCurrent or former (up to 2 years out) product, go-to-market or partnerships leaders at ABBYY, Hyland, OpenText, IBM or Microsoft who can discuss competitive positioning and win/loss against the target. No founders or C-level.\n\n### Excluded companies\n\n- Do not include current employees of Tungsten Automation. Note that the same company appears as Kofax on most profiles, and both names are excluded.\n- Former employees must have left at least 6 months ago."
+  },
+  "parser": {
+    "model": "claude-haiku-5-5",
+    "effort": "medium",
+    "parsed_at": "2026-10-11T14:39:33.890366Z"
+  },
+  "validation_warnings": []
+}

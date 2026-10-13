@@ -1,0 +1,388 @@
+{
+  "overall": {
+    "returned": 60,
+    "duplicate_rate": {
+      "value": 0.0,
+      "n": 60
+    },
+    "identity_correct": {
+      "yes_rate": 1.0,
+      "n": 60,
+      "ci95": [
+        0.94,
+        1.0
+      ],
+      "unknown": 0
+    },
+    "role_relevant": {
+      "yes_rate": 1.0,
+      "n": 60,
+      "ci95": [
+        0.94,
+        1.0
+      ],
+      "unknown": 0
+    },
+    "organisation_relationship_correct": {
+      "yes_rate": 1.0,
+      "n": 60,
+      "ci95": [
+        0.94,
+        1.0
+      ],
+      "unknown": 0
+    },
+    "employment_dates_valid": {
+      "yes_rate": 1.0,
+      "n": 60,
+      "ci95": [
+        0.94,
+        1.0
+      ],
+      "unknown": 0
+    },
+    "exclusions_honoured": {
+      "yes_rate": 1.0,
+      "n": 60,
+      "ci95": [
+        0.94,
+        1.0
+      ],
+      "unknown": 0
+    },
+    "evidence_supports_claim": {
+      "yes_rate": 1.0,
+      "n": 60,
+      "ci95": [
+        0.94,
+        1.0
+      ],
+      "unknown": 0
+    },
+    "overall_eligible": {
+      "yes_rate": 1.0,
+      "n": 60,
+      "ci95": [
+        0.94,
+        1.0
+      ],
+      "unknown": 0
+    },
+    "precision": {
+      "yes_rate": 1.0,
+      "n": 60,
+      "ci95": [
+        0.94,
+        1.0
+      ],
+      "unknown": 0
+    },
+    "exclusion_violation_rate": {
+      "value": 0.0,
+      "n": 60,
+      "ci95": [
+        0.0,
+        0.06
+      ]
+    },
+    "critical_claim_support_rate": {
+      "yes_rate": 1.0,
+      "n": 60,
+      "ci95": [
+        0.94,
+        1.0
+      ],
+      "unknown": 0
+    }
+  },
+  "groups": {
+    "former_employees": {
+      "returned": 20,
+      "duplicate_rate": {
+        "value": 0.0,
+        "n": 20
+      },
+      "identity_correct": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "role_relevant": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "organisation_relationship_correct": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "employment_dates_valid": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "exclusions_honoured": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "evidence_supports_claim": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "overall_eligible": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "precision": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "exclusion_violation_rate": {
+        "value": 0.0,
+        "n": 20,
+        "ci95": [
+          0.0,
+          0.161
+        ]
+      },
+      "critical_claim_support_rate": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      }
+    },
+    "customers": {
+      "returned": 20,
+      "duplicate_rate": {
+        "value": 0.0,
+        "n": 20
+      },
+      "identity_correct": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "role_relevant": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "organisation_relationship_correct": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "employment_dates_valid": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "exclusions_honoured": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "evidence_supports_claim": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "overall_eligible": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "precision": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "exclusion_violation_rate": {
+        "value": 0.0,
+        "n": 20,
+        "ci95": [
+          0.0,
+          0.161
+        ]
+      },
+      "critical_claim_support_rate": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      }
+    },
+    "competitors": {
+      "returned": 20,
+      "duplicate_rate": {
+        "value": 0.0,
+        "n": 20
+      },
+      "identity_correct": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "role_relevant": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "organisation_relationship_correct": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "employment_dates_valid": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "exclusions_honoured": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "evidence_supports_claim": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "overall_eligible": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "precision": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      },
+      "exclusion_violation_rate": {
+        "value": 0.0,
+        "n": 20,
+        "ci95": [
+          0.0,
+          0.161
+        ]
+      },
+      "critical_claim_support_rate": {
+        "yes_rate": 1.0,
+        "n": 20,
+        "ci95": [
+          0.839,
+          1.0
+        ],
+        "unknown": 0
+      }
+    }
+  }
+}

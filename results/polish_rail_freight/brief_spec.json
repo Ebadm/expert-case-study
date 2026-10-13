@@ -1,0 +1,230 @@
+{
+  "title": "Economics of private rail freight in Poland, 2025-2030",
+  "client": "Fictional strategy consultancy advising an infrastructure investor",
+  "project_type": "strategy",
+  "objective": "Assess the economics of private rail freight operation in Poland for 2025-2030: the shift from coal volumes to intermodal, infrastructure access charges and how they are set, train path availability on the congested corridors, locomotive fleet and traction economics, the driver shortage, and where rail can realistically take share from road.",
+  "target_organisation": null,
+  "sector": "Rail freight in Poland",
+  "excluded_organisations": [
+    {
+      "organisation": {
+        "name": "PKP Cargo",
+        "aliases": []
+      },
+      "scope": "current_employees",
+      "applies_to_group_ids": [],
+      "source_quote": "Do not include current employees of PKP Cargo, PKP PLK, DB Cargo Polska or UTK (the regulator)."
+    },
+    {
+      "organisation": {
+        "name": "PKP PLK",
+        "aliases": []
+      },
+      "scope": "current_employees",
+      "applies_to_group_ids": [],
+      "source_quote": "Do not include current employees of PKP Cargo, PKP PLK, DB Cargo Polska or UTK (the regulator)."
+    },
+    {
+      "organisation": {
+        "name": "DB Cargo Polska",
+        "aliases": []
+      },
+      "scope": "current_employees",
+      "applies_to_group_ids": [],
+      "source_quote": "Do not include current employees of PKP Cargo, PKP PLK, DB Cargo Polska or UTK (the regulator)."
+    },
+    {
+      "organisation": {
+        "name": "UTK",
+        "aliases": []
+      },
+      "scope": "current_employees",
+      "applies_to_group_ids": [],
+      "source_quote": "Do not include current employees of PKP Cargo, PKP PLK, DB Cargo Polska or UTK (the regulator)."
+    }
+  ],
+  "global_hard_constraints": [
+    {
+      "description": "Candidates must be independent operators or planners, not vendors selling rolling stock or software.",
+      "source_quote": "We want independent operators and planners, not vendors selling rolling stock or software"
+    },
+    {
+      "description": "Current employees of PKP Cargo, PKP PLK, DB Cargo Polska and UTK must not be included.",
+      "source_quote": "Do not include current employees of PKP Cargo, PKP PLK, DB Cargo Polska or UTK (the regulator)."
+    }
+  ],
+  "global_preferences": [
+    {
+      "description": "Ideally 8 or more years of experience in the Polish rail sector.",
+      "source_quote": "Ideally 8+ years in the Polish rail sector"
+    },
+    {
+      "description": "Preferably hands-on involvement in at least one new operating licence, terminal or corridor service that reached commercial operation.",
+      "source_quote": "with hands-on involvement in at least one new operating licence, terminal or corridor service that reached commercial operation"
+    },
+    {
+      "description": "Polish language experience is expected; the interview can be conducted in English.",
+      "source_quote": "Polish language experience is expected; the interview can be in English."
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "former_network_planning_access",
+      "name": "Former network planning, train path and access charge leads",
+      "description": "Former network planning, train path allocation or access charge leads at the Polish infrastructure manager or the rail regulator, who can discuss access charges and train path availability on congested corridors.",
+      "eligible_organisations": [],
+      "eligible_organisation_types": [
+        "Polish infrastructure manager",
+        "Polish rail regulator"
+      ],
+      "required_employment_status": "former",
+      "departure_window": null,
+      "target_roles": [
+        "network planning lead",
+        "train path allocation lead",
+        "access charge lead"
+      ],
+      "excluded_roles": [
+        "vendor selling rolling stock or software"
+      ],
+      "relevant_topics": [
+        "infrastructure access charges and how they are set",
+        "train path availability on congested corridors"
+      ],
+      "required_evidence": [
+        "public professional bio or conference or publication showing a network planning, train path allocation or access charge lead role at the infrastructure manager or regulator"
+      ],
+      "hard_constraints": [
+        {
+          "description": "Must have been a network planning, train path allocation or access charge lead at the Polish infrastructure manager or the rail regulator.",
+          "source_quote": "former network planning, train path allocation or access charge leads at the Polish infrastructure manager or the rail regulator"
+        }
+      ],
+      "preferences": [],
+      "screening_questions": [
+        "Which Polish rail freight operations have you been directly involved in, and in what role?",
+        "How do you expect access charges and train path availability to develop over the next five years?",
+        "What are realistic lead times today for launching a new intermodal service, and what drives them?",
+        "What would make you walk away from a Polish rail freight investment?"
+      ],
+      "search_strategy": "Search public professional bios, conference speaker pages, press releases and regulator or industry publications for former network planning, train path or access charge leads in Poland. Use terms such as access charges, train path allocation, network planning and capacity allocation combined with Polish rail names.",
+      "query_languages": [
+        "en",
+        "pl"
+      ],
+      "departure_dates": null
+    },
+    {
+      "group_id": "former_private_freight_operators",
+      "name": "Former operations, commercial and fleet leads at private freight operators",
+      "description": "Former operations, commercial or fleet leads at private freight operators active in Poland, who can discuss the coal-to-intermodal shift, locomotive fleet and traction economics and the driver shortage.",
+      "eligible_organisations": [],
+      "eligible_organisation_types": [
+        "private freight operators active in Poland"
+      ],
+      "required_employment_status": "former",
+      "departure_window": null,
+      "target_roles": [
+        "operations lead",
+        "commercial lead",
+        "fleet lead"
+      ],
+      "excluded_roles": [
+        "vendor selling rolling stock or software"
+      ],
+      "relevant_topics": [
+        "shift from coal volumes to intermodal",
+        "locomotive fleet and traction economics",
+        "driver shortage"
+      ],
+      "required_evidence": [
+        "public professional bio or case study or press release showing an operations, commercial or fleet lead role at a private freight operator active in Poland"
+      ],
+      "hard_constraints": [
+        {
+          "description": "Must have been an operations, commercial or fleet lead at a private freight operator active in Poland.",
+          "source_quote": "former operations, commercial or fleet leads at private freight operators active in Poland"
+        }
+      ],
+      "preferences": [],
+      "screening_questions": [
+        "Which Polish rail freight operations have you been directly involved in, and in what role?",
+        "How do you expect access charges and train path availability to develop over the next five years?",
+        "What are realistic lead times today for launching a new intermodal service, and what drives them?",
+        "What would make you walk away from a Polish rail freight investment?"
+      ],
+      "search_strategy": "Search public professional bios, customer case studies, press releases, conference speaker pages and industry publications for former operations, commercial or fleet leads at private rail freight operators in Poland. Use terms such as locomotive fleet, traction, intermodal, coal transport and driver shortage combined with Polish operator names.",
+      "query_languages": [
+        "en",
+        "pl"
+      ],
+      "departure_dates": null
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "name": "Terminal and intermodal operators",
+      "description": "Terminal and intermodal operators who handle the transfer between rail and road, who can discuss intermodal service launch lead times and where rail can take share from road.",
+      "eligible_organisations": [],
+      "eligible_organisation_types": [
+        "terminal operators handling rail-road transfer in Poland",
+        "intermodal operators handling rail-road transfer in Poland"
+      ],
+      "required_employment_status": "current_or_former",
+      "departure_window": null,
+      "target_roles": [],
+      "excluded_roles": [
+        "vendor selling rolling stock or software"
+      ],
+      "relevant_topics": [
+        "intermodal transfer between rail and road",
+        "lead times for launching a new intermodal service",
+        "where rail can take share from road"
+      ],
+      "required_evidence": [
+        "public source such as a terminal page, press release or case study showing operation of a rail-road transfer terminal or intermodal service in Poland"
+      ],
+      "hard_constraints": [
+        {
+          "description": "Must be a terminal or intermodal operator who handles the transfer between rail and road.",
+          "source_quote": "terminal and intermodal operators who handle the transfer between rail and road"
+        }
+      ],
+      "preferences": [],
+      "screening_questions": [
+        "Which Polish rail freight operations have you been directly involved in, and in what role?",
+        "How do you expect access charges and train path availability to develop over the next five years?",
+        "What are realistic lead times today for launching a new intermodal service, and what drives them?",
+        "What would make you walk away from a Polish rail freight investment?"
+      ],
+      "search_strategy": "Search terminal and intermodal operator websites, customer case studies, press releases, conference speaker pages and public professional bios for people involved in rail-road transfer terminals or intermodal services in Poland. Use terms such as intermodal terminal, transhipment, rail-road transfer and intermodal service launch combined with Polish terminal names.",
+      "query_languages": [
+        "en",
+        "pl"
+      ],
+      "departure_dates": null
+    }
+  ],
+  "ambiguities": [
+    "The brief does not name the Polish infrastructure manager or the rail regulator. It is assumed these are PKP PLK and UTK, which the exclusion list names. Please confirm before the search runs.",
+    "Former staff of PKP Cargo and DB Cargo Polska are not excluded, but it is unclear whether these operators count as private freight operators for the second group. Interpreted as not automatically qualifying; please confirm.",
+    "The brief does not say whether terminal and intermodal operators must be current or former employees. Interpreted as current or former.",
+    "The statement that the client wants independent operators and planners, not vendors selling rolling stock or software, is treated as a hard exclusion of vendor roles. Please confirm.",
+    "The 8+ years in the Polish rail sector, the hands-on launch experience and the Polish language experience are treated as preferences for ranking, not eligibility.",
+    "No time window for former employees is stated, so no departure window is set for any group.",
+    "The four screening questions are applied to every group because the brief lists them once for all independent experts."
+  ],
+  "schema_version": "1",
+  "brief_id": "polish_rail_freight",
+  "run_date": "2026-10-11",
+  "source": {
+    "path": "briefs/raw/polish-rail-freight.md",
+    "sha256": "4686fb669d6298d7d6e61757e8ca83b008e8e35e0ddaf830ade53b9942381dbc",
+    "text": "**Client:** fictional strategy consultancy advising an infrastructure investor\n\n**Project type:** strategy\n\n**Timeline:** 1-2 weeks for initial outreach\n\n### Objective\n\nAssess the economics of private rail freight operation in Poland for 2025-2030: the shift from coal volumes to intermodal, infrastructure access charges and how they are set, train path availability on the congested corridors, locomotive fleet and traction economics, the driver shortage, and where rail can realistically take share from road.\n\n### Independent industry experts\n\nWe want independent operators and planners, not vendors selling rolling stock or software:\n\n- former network planning, train path allocation or access charge leads at the Polish infrastructure manager or the rail regulator;\n- former operations, commercial or fleet leads at private freight operators active in Poland;\n- terminal and intermodal operators who handle the transfer between rail and road.\n\nIdeally 8+ years in the Polish rail sector, with hands-on involvement in at least one new operating licence, terminal or corridor service that reached commercial operation. Polish language experience is expected; the interview can be in English.\n\n**Screening questions:**\n\n- Which Polish rail freight operations have you been directly involved in, and in what role?\n- How do you expect access charges and train path availability to develop over the next five years?\n- What are realistic lead times today for launching a new intermodal service, and what drives them?\n- What would make you walk away from a Polish rail freight investment?\n\n### Excluded companies\n\n- Do not include current employees of PKP Cargo, PKP PLK, DB Cargo Polska or UTK (the regulator)."
+  },
+  "parser": {
+    "model": "claude-haiku-5-5",
+    "effort": "medium",
+    "parsed_at": "2026-10-11T15:15:08.463805Z"
+  },
+  "validation_warnings": []
+}

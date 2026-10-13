@@ -1,0 +1,597 @@
+{
+  "schema_version": "1",
+  "brief_id": "tungsten_automation",
+  "source_sha256": "4ed9274180fd3e32e4d49a4c7ff04006892af4433678c8b32bfd216f0abd3b47",
+  "spec_parsed_at": "2026-10-11T14:39:33.890366Z",
+  "generator": {
+    "model": "claude-haiku-5-5",
+    "effort": "medium",
+    "generated_at": "2026-10-11T14:39:34.193311Z"
+  },
+  "queries_per_provider": 5,
+  "xray_queries_per_group": 20,
+  "groups": [
+    {
+      "group_id": "former_employees",
+      "mode": "people",
+      "role_keywords": [
+        "product",
+        "engineering",
+        "solutions architect",
+        "sales",
+        "go-to-market",
+        "partnerships"
+      ],
+      "topic_keywords": [
+        "document capture",
+        "intelligent document processing",
+        "workflow automation",
+        "LLM extraction"
+      ],
+      "title_keywords": [],
+      "queries": [
+        {
+          "query_id": "former_employees.people.serper.01",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"Jan 2026\" OR \"Feb 2026\" OR \"Mar 2026\" OR \"Apr 2026\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + Jan 2026-Apr 2026)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.02",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"channel\" OR \"partner\" OR \"alliances\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + channel/partner)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.03",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"Oct 2025\" OR \"Nov 2025\" OR \"Dec 2025\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + Oct 2025-Dec 2025)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.04",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"customer success\" OR \"renewals\" OR \"support\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + success/support)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.05",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"Jul 2025\" OR \"Aug 2025\" OR \"Sep 2025\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + Jul 2025-Sep 2025)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.06",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Kofax\" (\"2023\" OR \"2024\") \"Tungsten Automation\" -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (Kofax + name + 2023/2024)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.07",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"Apr 2025\" OR \"May 2025\" OR \"Jun 2025\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + Apr 2025-Jun 2025)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.08",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"engineer\" OR \"developer\" OR \"architect\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + engineering)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.09",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"Jan 2025\" OR \"Feb 2025\" OR \"Mar 2025\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + Jan 2025-Mar 2025)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.10",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Kofax\" (\"account executive\" OR \"sales director\" OR \"vice president\" OR \"director\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (Kofax + employee titles)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.11",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"Oct 2024\" OR \"Nov 2024\" OR \"Dec 2024\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + Oct 2024-Dec 2024)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.12",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"sales\" OR \"account executive\" OR \"account manager\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + sales)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.13",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"Jul 2024\" OR \"Aug 2024\" OR \"Sep 2024\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + Jul 2024-Sep 2024)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.14",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"professional services\" OR \"consultant\" OR \"implementation\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + services)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.15",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"Apr 2024\" OR \"May 2024\" OR \"Jun 2024\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + Apr 2024-Jun 2024)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.16",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"director\" OR \"vice president\" OR \"VP\" OR \"head of\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + senior)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.17",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"Jan 2024\" OR \"Feb 2024\" OR \"Mar 2024\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + Jan 2024-Mar 2024)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.18",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"product\" OR \"marketing\" OR \"communications\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + product/marketing)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.19",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" (\"Oct 2023\" OR \"Nov 2023\" OR \"Dec 2023\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name + Oct 2023-Dec 2023)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.serper.20",
+          "group_id": "former_employees",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Tungsten Automation\" -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of former Tungsten Automation staff (name)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.exa.01",
+          "group_id": "former_employees",
+          "provider": "exa",
+          "query_type": "people",
+          "query": "professional profiles of former employees of Tungsten Automation (also known as Kofax) who no longer work there and left between October 2023 and April 2026",
+          "language": "en",
+          "intent": "Exa people search: former Tungsten Automation staff (main)",
+          "organisation": "Tungsten Automation"
+        },
+        {
+          "query_id": "former_employees.people.exa.02",
+          "group_id": "former_employees",
+          "provider": "exa",
+          "query_type": "people",
+          "query": "former Kofax product managers, consultants and customer success managers now at another company",
+          "language": "en",
+          "intent": "Exa people search: former Tungsten Automation staff (moved on)",
+          "organisation": "Tungsten Automation"
+        }
+      ]
+    },
+    {
+      "group_id": "customers",
+      "mode": "companies_then_people",
+      "role_keywords": [
+        "automation",
+        "document processing",
+        "shared services",
+        "IT director",
+        "CoE"
+      ],
+      "topic_keywords": [
+        "Kofax",
+        "Tungsten Automation",
+        "intelligent document processing",
+        "document capture"
+      ],
+      "title_keywords": [],
+      "queries": [
+        {
+          "query_id": "customers.company.serper.01",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "site:tungstenautomation.com/case-studies",
+          "language": "en",
+          "intent": "customer stories on the target's site (tungstenautomation.com/case-studies)",
+          "organisation": null
+        },
+        {
+          "query_id": "customers.company.serper.02",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "site:featuredcustomers.com/vendor/tungsten-automation",
+          "language": "en",
+          "intent": "case-study aggregator listing for the target",
+          "organisation": null
+        },
+        {
+          "query_id": "customers.company.serper.03",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "site:casestudies.com/company/tungsten-automation",
+          "language": "en",
+          "intent": "case-study aggregator listing for the target",
+          "organisation": null
+        },
+        {
+          "query_id": "customers.company.serper.04",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "(\"Tungsten Automation\" OR \"Kofax\") (\"case study\" OR \"customer story\" OR \"success story\")",
+          "language": "en",
+          "intent": "customer stories elsewhere on the web",
+          "organisation": null
+        },
+        {
+          "query_id": "customers.company.exa.01",
+          "group_id": "customers",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "Large enterprises that have deployed Kofax or Tungsten Automation capture software for high-volume invoice and claims processing",
+          "language": "en",
+          "intent": "Enterprises running Kofax or Tungsten Automation at production volume",
+          "organisation": null
+        },
+        {
+          "query_id": "customers.company.exa.02",
+          "group_id": "customers",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "Press release announcing that a company selected the Tungsten Automation intelligent document processing platform",
+          "language": "en",
+          "intent": "Organisations publicly announcing selection of Tungsten Automation",
+          "organisation": null
+        },
+        {
+          "query_id": "customers.company.exa.03",
+          "group_id": "customers",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "Conference talk by a shared services organisation describing its Kofax RPA and document capture implementation",
+          "language": "en",
+          "intent": "Shared services centres presenting Kofax implementation results",
+          "organisation": null
+        },
+        {
+          "query_id": "customers.company.exa.04",
+          "group_id": "customers",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "Customer case study of a bank that upgraded its Kofax document capture system and reported accuracy and cost results",
+          "language": "en",
+          "intent": "Banks reporting accuracy and cost outcomes from Kofax deployments",
+          "organisation": null
+        },
+        {
+          "query_id": "customers.company.exa.05",
+          "group_id": "customers",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "Insurance or government agency publicly describing its move away from Kofax to another document processing vendor",
+          "language": "en",
+          "intent": "Organisations that switched vendors after running Kofax",
+          "organisation": null
+        }
+      ]
+    },
+    {
+      "group_id": "competitors",
+      "mode": "people",
+      "role_keywords": [
+        "product",
+        "go-to-market",
+        "partnerships",
+        "channel"
+      ],
+      "topic_keywords": [
+        "document capture",
+        "intelligent document processing",
+        "workflow automation"
+      ],
+      "title_keywords": [
+        "head",
+        "director",
+        "lead",
+        "leader",
+        "vp"
+      ],
+      "queries": [
+        {
+          "query_id": "competitors.people.serper.01",
+          "group_id": "competitors",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"ABBYY\" (\"product\" OR \"go-to-market\" OR \"partnerships\" OR \"channel\") (\"head\" OR \"director\" OR \"lead\" OR \"leader\" OR \"vp\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of current or former ABBYY staff (by role and seniority)",
+          "organisation": "ABBYY"
+        },
+        {
+          "query_id": "competitors.people.serper.02",
+          "group_id": "competitors",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Hyland\" (\"product\" OR \"go-to-market\" OR \"partnerships\" OR \"channel\") (\"head\" OR \"director\" OR \"lead\" OR \"leader\" OR \"vp\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of current or former Hyland staff (by role and seniority)",
+          "organisation": "Hyland"
+        },
+        {
+          "query_id": "competitors.people.serper.03",
+          "group_id": "competitors",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"OpenText\" (\"product\" OR \"go-to-market\" OR \"partnerships\" OR \"channel\") (\"head\" OR \"director\" OR \"lead\" OR \"leader\" OR \"vp\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of current or former OpenText staff (by role and seniority)",
+          "organisation": "OpenText"
+        },
+        {
+          "query_id": "competitors.people.serper.04",
+          "group_id": "competitors",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"IBM\" (\"product\" OR \"go-to-market\" OR \"partnerships\" OR \"channel\") (\"head\" OR \"director\" OR \"lead\" OR \"leader\" OR \"vp\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of current or former IBM staff (by role and seniority)",
+          "organisation": "IBM"
+        },
+        {
+          "query_id": "competitors.people.serper.05",
+          "group_id": "competitors",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Microsoft\" (\"product\" OR \"go-to-market\" OR \"partnerships\" OR \"channel\") (\"head\" OR \"director\" OR \"lead\" OR \"leader\" OR \"vp\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of current or former Microsoft staff (by role and seniority)",
+          "organisation": "Microsoft"
+        },
+        {
+          "query_id": "competitors.people.serper.06",
+          "group_id": "competitors",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"ABBYY\" (\"product\" OR \"go-to-market\" OR \"partnerships\" OR \"channel\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of current or former ABBYY staff (by role)",
+          "organisation": "ABBYY"
+        },
+        {
+          "query_id": "competitors.people.serper.07",
+          "group_id": "competitors",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Hyland\" (\"product\" OR \"go-to-market\" OR \"partnerships\" OR \"channel\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of current or former Hyland staff (by role)",
+          "organisation": "Hyland"
+        },
+        {
+          "query_id": "competitors.people.serper.08",
+          "group_id": "competitors",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"OpenText\" (\"product\" OR \"go-to-market\" OR \"partnerships\" OR \"channel\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of current or former OpenText staff (by role)",
+          "organisation": "OpenText"
+        },
+        {
+          "query_id": "competitors.people.serper.09",
+          "group_id": "competitors",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"IBM\" (\"product\" OR \"go-to-market\" OR \"partnerships\" OR \"channel\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of current or former IBM staff (by role)",
+          "organisation": "IBM"
+        },
+        {
+          "query_id": "competitors.people.serper.10",
+          "group_id": "competitors",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Microsoft\" (\"product\" OR \"go-to-market\" OR \"partnerships\" OR \"channel\") -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of current or former Microsoft staff (by role)",
+          "organisation": "Microsoft"
+        },
+        {
+          "query_id": "competitors.people.serper.11",
+          "group_id": "competitors",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"ABBYY\" (\"product\" OR \"go-to-market\" OR \"partnerships\" OR \"channel\") -intitle:abbyy -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of current or former ABBYY staff (former, not in title)",
+          "organisation": "ABBYY"
+        },
+        {
+          "query_id": "competitors.people.serper.12",
+          "group_id": "competitors",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Hyland\" (\"product\" OR \"go-to-market\" OR \"partnerships\" OR \"channel\") -intitle:hyland -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of current or former Hyland staff (former, not in title)",
+          "organisation": "Hyland"
+        },
+        {
+          "query_id": "competitors.people.serper.13",
+          "group_id": "competitors",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"OpenText\" (\"product\" OR \"go-to-market\" OR \"partnerships\" OR \"channel\") -intitle:opentext -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of current or former OpenText staff (former, not in title)",
+          "organisation": "OpenText"
+        },
+        {
+          "query_id": "competitors.people.serper.14",
+          "group_id": "competitors",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"IBM\" (\"product\" OR \"go-to-market\" OR \"partnerships\" OR \"channel\") -intitle:ibm -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of current or former IBM staff (former, not in title)",
+          "organisation": "IBM"
+        },
+        {
+          "query_id": "competitors.people.serper.15",
+          "group_id": "competitors",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Microsoft\" (\"product\" OR \"go-to-market\" OR \"partnerships\" OR \"channel\") -intitle:microsoft -intitle:tungsten -intitle:kofax -\"at Tungsten Automation\" -\"at Kofax\" -\"at Tungsten\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles of current or former Microsoft staff (former, not in title)",
+          "organisation": "Microsoft"
+        },
+        {
+          "query_id": "competitors.people.exa.01",
+          "group_id": "competitors",
+          "provider": "exa",
+          "query_type": "people",
+          "query": "professional profiles of current or former employees of ABBYY in roles such as product, go-to-market, partnerships or channel, working on document capture, intelligent document processing or workflow automation; former employees must have left after October 2024",
+          "language": "en",
+          "intent": "Exa people search: current or former ABBYY staff (main)",
+          "organisation": "ABBYY"
+        },
+        {
+          "query_id": "competitors.people.exa.02",
+          "group_id": "competitors",
+          "provider": "exa",
+          "query_type": "people",
+          "query": "professional profiles of current or former employees of Hyland in roles such as product, go-to-market, partnerships or channel, working on document capture, intelligent document processing or workflow automation; former employees must have left after October 2024",
+          "language": "en",
+          "intent": "Exa people search: current or former Hyland staff (main)",
+          "organisation": "Hyland"
+        },
+        {
+          "query_id": "competitors.people.exa.03",
+          "group_id": "competitors",
+          "provider": "exa",
+          "query_type": "people",
+          "query": "professional profiles of current or former employees of OpenText in roles such as product, go-to-market, partnerships or channel, working on document capture, intelligent document processing or workflow automation; former employees must have left after October 2024",
+          "language": "en",
+          "intent": "Exa people search: current or former OpenText staff (main)",
+          "organisation": "OpenText"
+        },
+        {
+          "query_id": "competitors.people.exa.04",
+          "group_id": "competitors",
+          "provider": "exa",
+          "query_type": "people",
+          "query": "professional profiles of current or former employees of IBM in roles such as product, go-to-market, partnerships or channel, working on document capture, intelligent document processing or workflow automation; former employees must have left after October 2024",
+          "language": "en",
+          "intent": "Exa people search: current or former IBM staff (main)",
+          "organisation": "IBM"
+        },
+        {
+          "query_id": "competitors.people.exa.05",
+          "group_id": "competitors",
+          "provider": "exa",
+          "query_type": "people",
+          "query": "professional profiles of current or former employees of Microsoft in roles such as product, go-to-market, partnerships or channel, working on document capture, intelligent document processing or workflow automation; former employees must have left after October 2024",
+          "language": "en",
+          "intent": "Exa people search: current or former Microsoft staff (main)",
+          "organisation": "Microsoft"
+        }
+      ]
+    }
+  ],
+  "validation_warnings": [
+    "competitors.people.serper.01: Google 32-word limit reached, dropped -\"Kofax · Present\"",
+    "competitors.people.serper.02: Google 32-word limit reached, dropped -\"Kofax · Present\"",
+    "competitors.people.serper.03: Google 32-word limit reached, dropped -\"Kofax · Present\"",
+    "competitors.people.serper.04: Google 32-word limit reached, dropped -\"Kofax · Present\"",
+    "competitors.people.serper.05: Google 32-word limit reached, dropped -\"Kofax · Present\""
+  ]
+}

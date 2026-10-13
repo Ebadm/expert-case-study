@@ -1,0 +1,386 @@
+{
+  "schema_version": "1",
+  "brief_id": "polish_rail_freight",
+  "source_sha256": "4686fb669d6298d7d6e61757e8ca83b008e8e35e0ddaf830ade53b9942381dbc",
+  "looked_up_at": "2026-10-11T15:30:20.028986Z",
+  "lookups": [
+    {
+      "group_id": "former_network_planning_access",
+      "candidate_id": "former_network_planning_access:page:ignacy_g_ra-urzad_transportu_kolejowego",
+      "name": "Ignacy Góra",
+      "organisation": "Urząd Transportu Kolejowego",
+      "query": "site:linkedin.com/in \"Ignacy Góra\" Urząd Transportu Kolejowego | site:linkedin.com/in Ignacy Gora Urząd Transportu Kolejowego | site:linkedin.com/in \"Góra\" \"Urząd Transportu Kolejowego\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "former_network_planning_access",
+      "candidate_id": "former_network_planning_access:page:d_sc_ph_d_ignacy_g_ra-office_of_rail_transport_utk",
+      "name": "D.Sc. Ph.D. Ignacy Góra",
+      "organisation": "OFFICE OF RAIL TRANSPORT",
+      "query": "site:linkedin.com/in \"D.Sc. Ph.D. Ignacy Góra\" OFFICE OF RAIL TRANSPORT | site:linkedin.com/in D.Sc. Ph.D. Ignacy Gora OFFICE OF RAIL TRANSPORT | site:linkedin.com/in \"Góra\" \"OFFICE OF RAIL TRANSPORT\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "former_network_planning_access",
+      "candidate_id": "former_network_planning_access:page:ph_d_maciej_kaczorek-pkp_polskie_linie_kolejowe",
+      "name": "Ph.D. Maciej Kaczorek",
+      "organisation": "PKP POLSKIE LINIE KOLEJOWE SA",
+      "query": "site:linkedin.com/in \"Ph.D. Maciej Kaczorek\" PKP POLSKIE LINIE KOLEJOWE | site:linkedin.com/in Ph.D. Maciej Kaczorek PKP POLSKIE LINIE KOLEJOWE | site:linkedin.com/in \"Kaczorek\" \"PKP POLSKIE LINIE KOLEJOWE\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "former_network_planning_access",
+      "candidate_id": "former_network_planning_access:page:ph_d_jakub_majewski-pkp_polskie_linie_kolejowe",
+      "name": "Ph.D. Jakub Majewski",
+      "organisation": "PKP POLSKIE LINIE KOLEJOWE SA",
+      "query": "site:linkedin.com/in \"Ph.D. Jakub Majewski\" PKP POLSKIE LINIE KOLEJOWE | site:linkedin.com/in Ph.D. Jakub Majewski PKP POLSKIE LINIE KOLEJOWE | site:linkedin.com/in \"Majewski\" \"PKP POLSKIE LINIE KOLEJOWE\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "former_network_planning_access",
+      "candidate_id": "former_network_planning_access:page:krzysztof_waszkiewicz-pkp_polskie_linie_kolejowe",
+      "name": "Krzysztof Waszkiewicz",
+      "organisation": "PKP Polskie Linie Kolejowe S.A.",
+      "query": "site:linkedin.com/in \"Krzysztof Waszkiewicz\" PKP Polskie Linie Kolejowe | site:linkedin.com/in Krzysztof Waszkiewicz PKP Polskie Linie Kolejowe | site:linkedin.com/in \"Waszkiewicz\" \"PKP Polskie Linie Kolejowe\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "former_network_planning_access",
+      "candidate_id": "former_network_planning_access:page:miros_aw_antonowicz-urzad_transportu_kolejowego",
+      "name": "Mirosław Antonowicz",
+      "organisation": "Urząd Transportu Kolejowego",
+      "query": "site:linkedin.com/in \"Mirosław Antonowicz\" Urząd Transportu Kolejowego | site:linkedin.com/in Miroslaw Antonowicz Urząd Transportu Kolejowego | site:linkedin.com/in \"Antonowicz\" \"Urząd Transportu Kolejowego\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "former_network_planning_access",
+      "candidate_id": "former_network_planning_access:page:ignacy_g_ra-urzedu_transportu_kolejowego",
+      "name": "Ignacy Góra",
+      "organisation": "Urzędu Transportu Kolejowego",
+      "query": "site:linkedin.com/in \"Ignacy Góra\" Urzędu Transportu Kolejowego | site:linkedin.com/in Ignacy Gora Urzędu Transportu Kolejowego | site:linkedin.com/in \"Góra\" \"Urzędu Transportu Kolejowego\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "former_private_freight_operators",
+      "candidate_id": "former_private_freight_operators:page:edin_sose-awt",
+      "name": "Edin Sose",
+      "organisation": "AWT",
+      "query": "site:linkedin.com/in \"Edin Sose\" AWT | site:linkedin.com/in Edin Sose AWT | site:linkedin.com/in \"Sose\" \"AWT\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "former_private_freight_operators",
+      "candidate_id": "former_private_freight_operators:page:pawe_stawarz-ctl_logistics",
+      "name": "Paweł Stawarz",
+      "organisation": "CTL Logistics",
+      "query": "site:linkedin.com/in \"Paweł Stawarz\" CTL Logistics | site:linkedin.com/in Pawel Stawarz CTL Logistics",
+      "outcome": "found",
+      "profile_url": "https://pl.linkedin.com/in/pawe%C5%82-stawarz",
+      "profile_candidate_id": "former_private_freight_operators:pawe%c5%82-stawarz",
+      "matches": [
+        "https://linkedin.com/in/pawe%c5%82-stawarz"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "former_private_freight_operators",
+      "candidate_id": "former_private_freight_operators:page:ukasz_boro-cargounit",
+      "name": "Łukasz Boroń",
+      "organisation": "Cargounit",
+      "query": "site:linkedin.com/in \"Łukasz Boroń\" Cargounit",
+      "outcome": "found",
+      "profile_url": "https://pl.linkedin.com/in/lukaszboron",
+      "profile_candidate_id": "former_private_freight_operators:lukaszboron",
+      "matches": [
+        "https://linkedin.com/in/lukaszboron"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "former_private_freight_operators",
+      "candidate_id": "former_private_freight_operators:page:krzysztof_niemiec-ctl_logistics",
+      "name": "Krzysztof Niemiec",
+      "organisation": "CTL Logistics",
+      "query": "site:linkedin.com/in \"Krzysztof Niemiec\" CTL Logistics | site:linkedin.com/in Krzysztof Niemiec CTL Logistics | site:linkedin.com/in \"Niemiec\" \"CTL Logistics\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "former_private_freight_operators",
+      "candidate_id": "former_private_freight_operators:page:grzegorz_bogacki-ctl_logistics",
+      "name": "Grzegorz Bogacki",
+      "organisation": "CTL Logistics",
+      "query": "site:linkedin.com/in \"Grzegorz Bogacki\" CTL Logistics",
+      "outcome": "found",
+      "profile_url": "https://pl.linkedin.com/in/grzegorz-bogacki-1a967958",
+      "profile_candidate_id": "former_private_freight_operators:grzegorz-bogacki-1a967958",
+      "matches": [
+        "https://linkedin.com/in/grzegorz-bogacki-1a967958"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:reynald_nicolas-cfl_intermodal",
+      "name": "Reynald Nicolas",
+      "organisation": "CFL intermodal",
+      "query": "site:linkedin.com/in \"Reynald Nicolas\" CFL intermodal",
+      "outcome": "found",
+      "profile_url": "https://lu.linkedin.com/in/reynald-nicolas-5038a4",
+      "profile_candidate_id": "terminal_intermodal_operators:reynald-nicolas-5038a4",
+      "matches": [
+        "https://linkedin.com/in/reynald-nicolas-5038a4"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:marcin_witczak-laude_smart_intermodal",
+      "name": "Marcin Witczak",
+      "organisation": "Laude Smart Intermodal",
+      "query": "site:linkedin.com/in \"Marcin Witczak\" Laude Smart Intermodal",
+      "outcome": "found",
+      "profile_url": "https://pl.linkedin.com/in/marcin-witczak-69a5a778",
+      "profile_candidate_id": "terminal_intermodal_operators:marcin-witczak-69a5a778",
+      "matches": [
+        "https://linkedin.com/in/marcin-witczak-69a5a778"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:agnieszka_hip-clip_group",
+      "name": "Agnieszka Hipś",
+      "organisation": "CLIP Group",
+      "query": "site:linkedin.com/in \"Agnieszka Hipś\" CLIP Group",
+      "outcome": "found",
+      "profile_url": "https://pl.linkedin.com/in/agnieszka-hip%C5%9B-51800234",
+      "profile_candidate_id": "terminal_intermodal_operators:agnieszka-hip%c5%9b-51800234",
+      "matches": [
+        "https://linkedin.com/in/agnieszka-hip%c5%9b-51800234"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:tomasz_lange-clip_group",
+      "name": "Tomasz Lange",
+      "organisation": "CLIP Group",
+      "query": "site:linkedin.com/in \"Tomasz Lange\" CLIP Group | site:linkedin.com/in Tomasz Lange CLIP Group | site:linkedin.com/in \"Lange\" \"CLIP Group\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:micha_majewski-clip_group",
+      "name": "Michał Majewski",
+      "organisation": "Clip Group",
+      "query": "site:linkedin.com/in \"Michał Majewski\" Clip Group | site:linkedin.com/in Michal Majewski Clip Group | site:linkedin.com/in \"Majewski\" \"Clip Group\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:czes_aw_warsewicz-pkp_cargo",
+      "name": "Czesław Warsewicz",
+      "organisation": "PKP CARGO",
+      "query": "site:linkedin.com/in \"Czesław Warsewicz\" PKP CARGO | site:linkedin.com/in Czeslaw Warsewicz PKP CARGO | site:linkedin.com/in \"Warsewicz\" \"PKP CARGO\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:przemys_aw_hoehne-pkp_cargo_connect",
+      "name": "Przemysław Hoehne",
+      "organisation": "PKP CARGO CONNECT",
+      "query": "site:linkedin.com/in \"Przemysław Hoehne\" PKP CARGO CONNECT | site:linkedin.com/in Przemyslaw Hoehne PKP CARGO CONNECT | site:linkedin.com/in \"Hoehne\" \"PKP CARGO CONNECT\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:egl_im-ltg_cargo",
+      "name": "Eglė Šimė",
+      "organisation": "LTG Cargo",
+      "query": "site:linkedin.com/in \"Eglė Šimė\" LTG Cargo | site:linkedin.com/in Egle Sime LTG Cargo | site:linkedin.com/in \"Šimė\" \"LTG Cargo\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:ewa_pacula-loconi_intermodal",
+      "name": "Ewa Pacula",
+      "organisation": "Loconi Intermodal S.A.",
+      "query": "site:linkedin.com/in \"Ewa Pacula\" Loconi Intermodal",
+      "outcome": "found",
+      "profile_url": "https://pl.linkedin.com/in/ewa-pacula-124b4891",
+      "profile_candidate_id": "terminal_intermodal_operators:ewa-pacula-124b4891",
+      "matches": [
+        "https://linkedin.com/in/ewa-pacula-124b4891"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:przemys_aw_ostrowski-loconi_intermodal",
+      "name": "Przemysław Ostrowski",
+      "organisation": "Loconi Intermodal S.A.",
+      "query": "site:linkedin.com/in \"Przemysław Ostrowski\" Loconi Intermodal",
+      "outcome": "found",
+      "profile_url": "https://pl.linkedin.com/in/przemys%C5%82aw-ostrowski-a64946186",
+      "profile_candidate_id": "terminal_intermodal_operators:przemys%c5%82aw-ostrowski-a64946186",
+      "matches": [
+        "https://linkedin.com/in/przemys%c5%82aw-ostrowski-a64946186"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:agnieszka_hip-container_terminal_mala",
+      "name": "Agnieszka Hipś",
+      "organisation": "Container Terminal Mala",
+      "query": "site:linkedin.com/in \"Agnieszka Hipś\" Container Terminal Mala | site:linkedin.com/in Agnieszka Hips Container Terminal Mala | site:linkedin.com/in \"Hipś\" \"Container Terminal Mala\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:aleksandra_kornobis-metrans",
+      "name": "Aleksandra Kornobis",
+      "organisation": "METRANS",
+      "query": "site:linkedin.com/in \"Aleksandra Kornobis\" METRANS | site:linkedin.com/in Aleksandra Kornobis METRANS | site:linkedin.com/in \"Kornobis\" \"METRANS\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:andreas_mager-contargo_intermodal_solutions",
+      "name": "Andreas Mager",
+      "organisation": "Contargo Intermodal Solutions",
+      "query": "site:linkedin.com/in \"Andreas Mager\" Contargo Intermodal Solutions | site:linkedin.com/in Andreas Mager Contargo Intermodal Solutions | site:linkedin.com/in \"Mager\" \"Contargo Intermodal Solutions\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:szymon_wojtania-ihub",
+      "name": "Szymon Wojtania",
+      "organisation": "iHub",
+      "query": "site:linkedin.com/in \"Szymon Wojtania\" iHub",
+      "outcome": "found",
+      "profile_url": "https://pl.linkedin.com/in/szymon-wojtania-840736174",
+      "profile_candidate_id": "terminal_intermodal_operators:szymon-wojtania-840736174",
+      "matches": [
+        "https://linkedin.com/in/szymon-wojtania-840736174"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:karolina_adkiewicz-ihub",
+      "name": "Karolina Żadkiewicz",
+      "organisation": "iHub",
+      "query": "site:linkedin.com/in \"Karolina Żadkiewicz\" iHub | site:linkedin.com/in Karolina Zadkiewicz iHub | site:linkedin.com/in \"Żadkiewicz\" \"iHub\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:wojciech_szymulewicz-baltic_container_terminal",
+      "name": "Wojciech Szymulewicz",
+      "organisation": "Baltic Container Terminal",
+      "query": "site:linkedin.com/in \"Wojciech Szymulewicz\" Baltic Container Terminal | site:linkedin.com/in Wojciech Szymulewicz Baltic Container Terminal | site:linkedin.com/in \"Szymulewicz\" \"Baltic Container Terminal\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:agnieszka_kabus-pkp_cargo_terminale",
+      "name": "Agnieszka Kabus",
+      "organisation": "PKP CARGO TERMINALE sp. z o.o.",
+      "query": "site:linkedin.com/in \"Agnieszka Kabus\" PKP CARGO TERMINALE | site:linkedin.com/in Agnieszka Kabus PKP CARGO TERMINALE | site:linkedin.com/in \"Kabus\" \"PKP CARGO TERMINALE\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "candidate_id": "terminal_intermodal_operators:page:alina_sawu_a-pkp_cargo_terminale",
+      "name": "Alina Sawuła",
+      "organisation": "PKP CARGO TERMINALE sp. z o.o.",
+      "query": "site:linkedin.com/in \"Alina Sawuła\" PKP CARGO TERMINALE | site:linkedin.com/in Alina Sawula PKP CARGO TERMINALE | site:linkedin.com/in \"Sawuła\" \"PKP CARGO TERMINALE\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    }
+  ]
+}

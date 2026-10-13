@@ -1,0 +1,1768 @@
+{
+  "summary": {
+    "status": "completed (stopped after ranking)",
+    "stages": "brief_parsing -> ranking",
+    "started": "2026-10-11 14:38:54 UTC",
+    "duration": "5m 30s",
+    "total_cost": "$0.742 (Anthropic $0.100 + Serper $0.225 + Exa $0.417)",
+    "cost_by_api": {
+      "Anthropic (claude-haiku-5-5)": "$0.100: 124 calls, 431,851 input + 114,269 output tokens",
+      "Serper (Google search)": "$0.225: customer-story discovery $0.002 (2 requests); search $0.143 (143 requests); profile lookup $0.080 (80 requests)",
+      "Exa (search and page contents)": "$0.417: search $0.114 (5 requests); page contents $0.303 (303 pages read, 7 failed)"
+    },
+    "time_and_cost_by_stage": {
+      "[1/9] brief_parsing": "39.1s, $0.005 (Anthropic $0.005)",
+      "[2/9] query_generation": "10.6s, $0.004 (Anthropic $0.002, Serper $0.002)",
+      "[3/9] search": "1m 55s, $0.240 (Serper $0.126, Exa $0.114)",
+      "[4/9] candidate_extraction": "59.5s, $0.302 (Anthropic $0.070, Exa $0.232)",
+      "[5/9] organisation_people": "54.1s, $0.082 (Anthropic $0.018, Serper $0.017, Exa $0.047)",
+      "[6/9] profile_lookup": "33.5s, $0.104 (Serper $0.080, Exa $0.024)",
+      "[7/9] entity_resolution": "0.0s, $0.00",
+      "[8/9] verification": "0.0s, $0.00",
+      "[9/9] ranking": "17.1s, $0.005 (Anthropic $0.005)"
+    },
+    "notes": [
+      "Anthropic cost: estimate: tokens x list price (LLM_PRICE_*_PER_MTOK (as of 2026-10-06))",
+      "Serper cost: estimate (Serper-reported credits x $1.0/1k)",
+      "Exa cost: provider-reported (costDollars)"
+    ]
+  },
+  "costs": {
+    "total_usd": 0.742321,
+    "duration_s": 329.607,
+    "by_api": [
+      {
+        "api": "Anthropic",
+        "cost_usd": 0.100321,
+        "requests": 124,
+        "by_purpose": {
+          "brief_parsing": 0.004836,
+          "query_generation": 0.002089,
+          "candidate_extraction": 0.050167,
+          "ranking": 0.043229
+        },
+        "usage": {
+          "model": "claude-haiku-5-5",
+          "input_tokens": 431851,
+          "output_tokens": 114269
+        },
+        "cost_source": "estimate: tokens x list price (LLM_PRICE_*_PER_MTOK (as of 2026-10-06))"
+      },
+      {
+        "api": "Serper",
+        "cost_usd": 0.225,
+        "requests": 225,
+        "by_purpose": {
+          "discovery": 0.002,
+          "search": 0.143,
+          "profile_lookup": 0.08
+        },
+        "usage": {
+          "discovery_requests": 2,
+          "discovery_results": 20,
+          "discovery_failed": 0,
+          "search_requests": 143,
+          "search_results": 1146,
+          "search_failed": 0,
+          "profile_lookup_requests": 80,
+          "profile_lookup_results": 286,
+          "profile_lookup_failed": 0
+        },
+        "cost_source": "estimate (Serper-reported credits x $1.0/1k)"
+      },
+      {
+        "api": "Exa",
+        "cost_usd": 0.417,
+        "requests": 13,
+        "by_purpose": {
+          "search": 0.114,
+          "contents": 0.303
+        },
+        "usage": {
+          "search_requests": 5,
+          "search_results": 104,
+          "search_failed": 0,
+          "contents_requests": 8,
+          "contents_results": 303,
+          "contents_failed": 7
+        },
+        "cost_source": "provider-reported (costDollars)"
+      }
+    ],
+    "by_stage": [
+      {
+        "stage": "brief_parsing",
+        "step": "1/9",
+        "duration_s": 39.061,
+        "cost_usd": 0.004836,
+        "by_api": {
+          "Anthropic": 0.004836
+        },
+        "llm_calls": 1
+      },
+      {
+        "stage": "query_generation",
+        "step": "2/9",
+        "duration_s": 10.637,
+        "cost_usd": 0.004089,
+        "by_api": {
+          "Anthropic": 0.002089,
+          "Serper": 0.002
+        },
+        "llm_calls": 3
+      },
+      {
+        "stage": "search",
+        "step": "3/9",
+        "duration_s": 115.36,
+        "cost_usd": 0.24,
+        "by_api": {
+          "Serper": 0.126,
+          "Exa": 0.114
+        },
+        "llm_calls": 0
+      },
+      {
+        "stage": "candidate_extraction",
+        "step": "4/9",
+        "duration_s": 59.496,
+        "cost_usd": 0.30218,
+        "by_api": {
+          "Anthropic": 0.07018,
+          "Exa": 0.232
+        },
+        "llm_calls": 110
+      },
+      {
+        "stage": "organisation_people",
+        "step": "5/9",
+        "duration_s": 54.132,
+        "cost_usd": 0.082371,
+        "by_api": {
+          "Anthropic": 0.018371,
+          "Serper": 0.017,
+          "Exa": 0.047
+        },
+        "llm_calls": 8
+      },
+      {
+        "stage": "profile_lookup",
+        "step": "6/9",
+        "duration_s": 33.463,
+        "cost_usd": 0.104,
+        "by_api": {
+          "Serper": 0.08,
+          "Exa": 0.024
+        },
+        "llm_calls": 0
+      },
+      {
+        "stage": "entity_resolution",
+        "step": "7/9",
+        "duration_s": 0.048,
+        "cost_usd": 0.0,
+        "by_api": {},
+        "llm_calls": 0
+      },
+      {
+        "stage": "verification",
+        "step": "8/9",
+        "duration_s": 0.037,
+        "cost_usd": 0.0,
+        "by_api": {},
+        "llm_calls": 0
+      },
+      {
+        "stage": "ranking",
+        "step": "9/9",
+        "duration_s": 17.067,
+        "cost_usd": 0.004845,
+        "by_api": {
+          "Anthropic": 0.004845
+        },
+        "llm_calls": 2
+      }
+    ]
+  },
+  "run_id": "20261011T143854Z-c94968",
+  "brief_id": "tungsten_automation",
+  "run_date": "2026-10-11",
+  "started_at": "2026-10-11T14:38:54.669393Z",
+  "finished_at": "2026-10-11T14:44:24.276771Z",
+  "duration_s": 329.607,
+  "stopped_after": "ranking",
+  "stages": [
+    {
+      "stage": "brief_parsing",
+      "duration_s": 39.061,
+      "step": "1/9"
+    },
+    {
+      "stage": "query_generation",
+      "duration_s": 10.637,
+      "step": "2/9"
+    },
+    {
+      "stage": "search",
+      "duration_s": 115.36,
+      "step": "3/9"
+    },
+    {
+      "stage": "candidate_extraction",
+      "duration_s": 59.496,
+      "step": "4/9"
+    },
+    {
+      "stage": "organisation_people",
+      "duration_s": 54.132,
+      "step": "5/9"
+    },
+    {
+      "stage": "profile_lookup",
+      "duration_s": 33.463,
+      "step": "6/9"
+    },
+    {
+      "stage": "entity_resolution",
+      "duration_s": 0.048,
+      "step": "7/9"
+    },
+    {
+      "stage": "verification",
+      "duration_s": 0.037,
+      "step": "8/9"
+    },
+    {
+      "stage": "ranking",
+      "duration_s": 17.067,
+      "step": "9/9"
+    }
+  ],
+  "llm_calls": [
+    {
+      "stage": "brief_parsing",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 5561,
+      "output_tokens": 8559,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 39.054,
+      "estimated_cost_usd": 0.004836,
+      "pipeline_stage": "brief_parsing"
+    },
+    {
+      "stage": "query_generation",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2619,
+      "output_tokens": 83,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.942,
+      "estimated_cost_usd": 0.000303,
+      "pipeline_stage": "query_generation"
+    },
+    {
+      "stage": "query_generation",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2457,
+      "output_tokens": 680,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 3.726,
+      "estimated_cost_usd": 0.000586,
+      "pipeline_stage": "query_generation"
+    },
+    {
+      "stage": "query_generation",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3702,
+      "output_tokens": 1660,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 8.032,
+      "estimated_cost_usd": 0.0012,
+      "pipeline_stage": "query_generation"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2113,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.66,
+      "estimated_cost_usd": 0.000219,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 1887,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.681,
+      "estimated_cost_usd": 0.000197,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2198,
+      "output_tokens": 245,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.32,
+      "estimated_cost_usd": 0.000342,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2526,
+      "output_tokens": 147,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.406,
+      "estimated_cost_usd": 0.000326,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3145,
+      "output_tokens": 256,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.544,
+      "estimated_cost_usd": 0.000443,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2538,
+      "output_tokens": 250,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.426,
+      "estimated_cost_usd": 0.000379,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2847,
+      "output_tokens": 133,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.763,
+      "estimated_cost_usd": 0.000351,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2318,
+      "output_tokens": 848,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 5.12,
+      "estimated_cost_usd": 0.000656,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3185,
+      "output_tokens": 1028,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 5.285,
+      "estimated_cost_usd": 0.000833,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2291,
+      "output_tokens": 939,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 5.307,
+      "estimated_cost_usd": 0.000699,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2319,
+      "output_tokens": 543,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 3.238,
+      "estimated_cost_usd": 0.000503,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2312,
+      "output_tokens": 829,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 4.323,
+      "estimated_cost_usd": 0.000646,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3180,
+      "output_tokens": 1193,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 5.883,
+      "estimated_cost_usd": 0.000914,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2310,
+      "output_tokens": 643,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 3.379,
+      "estimated_cost_usd": 0.000553,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2385,
+      "output_tokens": 1024,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 5.101,
+      "estimated_cost_usd": 0.00075,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2582,
+      "output_tokens": 750,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 4.092,
+      "estimated_cost_usd": 0.000633,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2423,
+      "output_tokens": 758,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 4.135,
+      "estimated_cost_usd": 0.000621,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3110,
+      "output_tokens": 111,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.799,
+      "estimated_cost_usd": 0.000367,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2367,
+      "output_tokens": 820,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 4.487,
+      "estimated_cost_usd": 0.000647,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3261,
+      "output_tokens": 1188,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 5.576,
+      "estimated_cost_usd": 0.00092,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2619,
+      "output_tokens": 250,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.425,
+      "estimated_cost_usd": 0.000387,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2328,
+      "output_tokens": 528,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.729,
+      "estimated_cost_usd": 0.000497,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3032,
+      "output_tokens": 252,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.461,
+      "estimated_cost_usd": 0.000429,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3235,
+      "output_tokens": 60,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.591,
+      "estimated_cost_usd": 0.000353,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3164,
+      "output_tokens": 187,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.625,
+      "estimated_cost_usd": 0.00041,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3177,
+      "output_tokens": 104,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.78,
+      "estimated_cost_usd": 0.00037,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2325,
+      "output_tokens": 546,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 3.756,
+      "estimated_cost_usd": 0.000505,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2223,
+      "output_tokens": 746,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 4.177,
+      "estimated_cost_usd": 0.000595,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 1935,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.426,
+      "estimated_cost_usd": 0.000201,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 1916,
+      "output_tokens": 45,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.541,
+      "estimated_cost_usd": 0.000214,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3365,
+      "output_tokens": 1029,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 5.165,
+      "estimated_cost_usd": 0.000851,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3043,
+      "output_tokens": 1669,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 7.464,
+      "estimated_cost_usd": 0.001139,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2339,
+      "output_tokens": 250,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.746,
+      "estimated_cost_usd": 0.000359,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3186,
+      "output_tokens": 131,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.778,
+      "estimated_cost_usd": 0.000384,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2342,
+      "output_tokens": 696,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 3.342,
+      "estimated_cost_usd": 0.000582,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3235,
+      "output_tokens": 348,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.767,
+      "estimated_cost_usd": 0.000498,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3186,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.42,
+      "estimated_cost_usd": 0.000327,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3186,
+      "output_tokens": 3406,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 14.148,
+      "estimated_cost_usd": 0.002022,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2321,
+      "output_tokens": 1059,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 5.236,
+      "estimated_cost_usd": 0.000762,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3115,
+      "output_tokens": 136,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.851,
+      "estimated_cost_usd": 0.00038,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2520,
+      "output_tokens": 1408,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 7.142,
+      "estimated_cost_usd": 0.000956,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3197,
+      "output_tokens": 139,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.412,
+      "estimated_cost_usd": 0.000389,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3274,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.454,
+      "estimated_cost_usd": 0.000335,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3058,
+      "output_tokens": 52,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.63,
+      "estimated_cost_usd": 0.000332,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2927,
+      "output_tokens": 323,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.924,
+      "estimated_cost_usd": 0.000454,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2246,
+      "output_tokens": 654,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 3.527,
+      "estimated_cost_usd": 0.000552,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2389,
+      "output_tokens": 296,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.684,
+      "estimated_cost_usd": 0.000387,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2200,
+      "output_tokens": 926,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 4.706,
+      "estimated_cost_usd": 0.000683,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2403,
+      "output_tokens": 1399,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 6.241,
+      "estimated_cost_usd": 0.00094,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3080,
+      "output_tokens": 1198,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 5.802,
+      "estimated_cost_usd": 0.000907,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3244,
+      "output_tokens": 76,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.709,
+      "estimated_cost_usd": 0.000362,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2323,
+      "output_tokens": 107,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.846,
+      "estimated_cost_usd": 0.000286,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3213,
+      "output_tokens": 120,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.853,
+      "estimated_cost_usd": 0.000381,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3127,
+      "output_tokens": 134,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.934,
+      "estimated_cost_usd": 0.00038,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2773,
+      "output_tokens": 96,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.948,
+      "estimated_cost_usd": 0.000325,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3150,
+      "output_tokens": 150,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.024,
+      "estimated_cost_usd": 0.00039,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2620,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.397,
+      "estimated_cost_usd": 0.00027,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 1995,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.564,
+      "estimated_cost_usd": 0.000208,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2307,
+      "output_tokens": 677,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 3.743,
+      "estimated_cost_usd": 0.000569,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3135,
+      "output_tokens": 152,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.827,
+      "estimated_cost_usd": 0.000389,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3277,
+      "output_tokens": 136,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.94,
+      "estimated_cost_usd": 0.000396,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3070,
+      "output_tokens": 688,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 3.849,
+      "estimated_cost_usd": 0.000651,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 5421,
+      "output_tokens": 1809,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 8.739,
+      "estimated_cost_usd": 0.001447,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2247,
+      "output_tokens": 289,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.315,
+      "estimated_cost_usd": 0.000369,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 6122,
+      "output_tokens": 2001,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 9.392,
+      "estimated_cost_usd": 0.001613,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3535,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.288,
+      "estimated_cost_usd": 0.000362,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2109,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.439,
+      "estimated_cost_usd": 0.000219,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3251,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.474,
+      "estimated_cost_usd": 0.000333,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2461,
+      "output_tokens": 683,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 3.772,
+      "estimated_cost_usd": 0.000588,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3411,
+      "output_tokens": 255,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.033,
+      "estimated_cost_usd": 0.000469,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2295,
+      "output_tokens": 549,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 3.312,
+      "estimated_cost_usd": 0.000504,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3267,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.405,
+      "estimated_cost_usd": 0.000335,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2187,
+      "output_tokens": 287,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.496,
+      "estimated_cost_usd": 0.000362,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3152,
+      "output_tokens": 158,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.155,
+      "estimated_cost_usd": 0.000394,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3154,
+      "output_tokens": 87,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.66,
+      "estimated_cost_usd": 0.000359,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 8883,
+      "output_tokens": 2786,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 12.267,
+      "estimated_cost_usd": 0.002281,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3098,
+      "output_tokens": 985,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 4.625,
+      "estimated_cost_usd": 0.000802,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3433,
+      "output_tokens": 252,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.351,
+      "estimated_cost_usd": 0.000469,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3095,
+      "output_tokens": 122,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.762,
+      "estimated_cost_usd": 0.000371,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 8940,
+      "output_tokens": 3057,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 13.076,
+      "estimated_cost_usd": 0.002423,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 8090,
+      "output_tokens": 3087,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 13.449,
+      "estimated_cost_usd": 0.002352,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3250,
+      "output_tokens": 117,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.79,
+      "estimated_cost_usd": 0.000383,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 1961,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.63,
+      "estimated_cost_usd": 0.000204,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2490,
+      "output_tokens": 84,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.731,
+      "estimated_cost_usd": 0.000291,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2266,
+      "output_tokens": 58,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.661,
+      "estimated_cost_usd": 0.000256,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 9093,
+      "output_tokens": 3492,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 14.763,
+      "estimated_cost_usd": 0.002655,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2274,
+      "output_tokens": 596,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 3.294,
+      "estimated_cost_usd": 0.000525,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 9090,
+      "output_tokens": 3569,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 15.077,
+      "estimated_cost_usd": 0.002694,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3370,
+      "output_tokens": 1090,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 5.275,
+      "estimated_cost_usd": 0.000882,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2350,
+      "output_tokens": 67,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.682,
+      "estimated_cost_usd": 0.000269,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2323,
+      "output_tokens": 769,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 4.241,
+      "estimated_cost_usd": 0.000617,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3743,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.401,
+      "estimated_cost_usd": 0.000382,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 1988,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.407,
+      "estimated_cost_usd": 0.000207,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3165,
+      "output_tokens": 128,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.87,
+      "estimated_cost_usd": 0.00038,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2014,
+      "output_tokens": 61,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.641,
+      "estimated_cost_usd": 0.000232,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3251,
+      "output_tokens": 74,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.697,
+      "estimated_cost_usd": 0.000362,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2401,
+      "output_tokens": 73,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.721,
+      "estimated_cost_usd": 0.000277,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2376,
+      "output_tokens": 999,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 5.106,
+      "estimated_cost_usd": 0.000737,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2281,
+      "output_tokens": 950,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 4.964,
+      "estimated_cost_usd": 0.000703,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3063,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 1.467,
+      "estimated_cost_usd": 0.000314,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2204,
+      "output_tokens": 863,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 4.246,
+      "estimated_cost_usd": 0.000652,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2394,
+      "output_tokens": 386,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.277,
+      "estimated_cost_usd": 0.000432,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2241,
+      "output_tokens": 258,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 2.42,
+      "estimated_cost_usd": 0.000353,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2434,
+      "output_tokens": 987,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 5.356,
+      "estimated_cost_usd": 0.000737,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2244,
+      "output_tokens": 1197,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 6.149,
+      "estimated_cost_usd": 0.000823,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 2836,
+      "output_tokens": 831,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 3.859,
+      "estimated_cost_usd": 0.000699,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "candidate_extraction",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3438,
+      "output_tokens": 728,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 3.864,
+      "estimated_cost_usd": 0.000708,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 4014,
+      "output_tokens": 1154,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 6.068,
+      "estimated_cost_usd": 0.000978,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 7875,
+      "output_tokens": 2565,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 10.978,
+      "estimated_cost_usd": 0.00207,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 6456,
+      "output_tokens": 1709,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 7.726,
+      "estimated_cost_usd": 0.0015,
+      "pipeline_stage": "candidate_extraction"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3295,
+      "output_tokens": 1012,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 5.531,
+      "estimated_cost_usd": 0.000835,
+      "pipeline_stage": "organisation_people"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 6105,
+      "output_tokens": 3121,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 13.5,
+      "estimated_cost_usd": 0.002171,
+      "pipeline_stage": "organisation_people"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 5714,
+      "output_tokens": 3405,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 14.724,
+      "estimated_cost_usd": 0.002274,
+      "pipeline_stage": "organisation_people"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 5951,
+      "output_tokens": 3771,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 16.166,
+      "estimated_cost_usd": 0.002481,
+      "pipeline_stage": "organisation_people"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 3447,
+      "output_tokens": 793,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 4.781,
+      "estimated_cost_usd": 0.000741,
+      "pipeline_stage": "organisation_people"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 10772,
+      "output_tokens": 3996,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 17.003,
+      "estimated_cost_usd": 0.003075,
+      "pipeline_stage": "organisation_people"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 10551,
+      "output_tokens": 4437,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 18.889,
+      "estimated_cost_usd": 0.003274,
+      "pipeline_stage": "organisation_people"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 10276,
+      "output_tokens": 4985,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 21.673,
+      "estimated_cost_usd": 0.00352,
+      "pipeline_stage": "organisation_people"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 6046,
+      "output_tokens": 2531,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 12.105,
+      "estimated_cost_usd": 0.00187,
+      "pipeline_stage": "ranking"
+    },
+    {
+      "stage": "ranking",
+      "model": "claude-haiku-5-5",
+      "input_tokens": 10222,
+      "output_tokens": 3906,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "duration_s": 17.029,
+      "estimated_cost_usd": 0.002975,
+      "pipeline_stage": "ranking"
+    }
+  ],
+  "llm_total_input_tokens": 431851,
+  "llm_total_output_tokens": 114269,
+  "estimated_llm_cost_usd": 0.100321,
+  "search_usage": [
+    {
+      "provider": "serper",
+      "purpose": "discovery",
+      "requests": 1,
+      "results": 10,
+      "errors": 0,
+      "cost_usd": 0.001,
+      "cost_source": "estimate (Serper-reported credits x $1.0/1k)",
+      "stage": "query_generation"
+    },
+    {
+      "provider": "serper",
+      "purpose": "discovery",
+      "requests": 1,
+      "results": 10,
+      "errors": 0,
+      "cost_usd": 0.001,
+      "cost_source": "estimate (Serper-reported credits x $1.0/1k)",
+      "stage": "query_generation"
+    },
+    {
+      "provider": "serper",
+      "purpose": "search",
+      "requests": 126,
+      "results": 1069,
+      "errors": 0,
+      "cost_usd": 0.126,
+      "cost_source": "estimate (Serper-reported credits x $1.0/1k)",
+      "stage": "search"
+    },
+    {
+      "provider": "exa",
+      "purpose": "search",
+      "requests": 5,
+      "results": 104,
+      "errors": 0,
+      "cost_usd": 0.114,
+      "cost_source": "provider-reported (costDollars)",
+      "stage": "search"
+    },
+    {
+      "provider": "exa",
+      "purpose": "contents",
+      "requests": 6,
+      "results": 232,
+      "errors": 3,
+      "cost_usd": 0.232,
+      "cost_source": "provider-reported (costDollars)",
+      "stage": "candidate_extraction"
+    },
+    {
+      "provider": "serper",
+      "purpose": "search",
+      "requests": 17,
+      "results": 77,
+      "errors": 0,
+      "cost_usd": 0.017,
+      "cost_source": "estimate (Serper-reported credits x $1.0/1k)",
+      "stage": "organisation_people"
+    },
+    {
+      "provider": "exa",
+      "purpose": "contents",
+      "requests": 1,
+      "results": 47,
+      "errors": 3,
+      "cost_usd": 0.047,
+      "cost_source": "provider-reported (costDollars)",
+      "stage": "organisation_people"
+    },
+    {
+      "provider": "serper",
+      "purpose": "profile_lookup",
+      "requests": 33,
+      "results": 31,
+      "errors": 0,
+      "cost_usd": 0.033,
+      "cost_source": "estimate (Serper-reported credits x $1.0/1k)",
+      "stage": "profile_lookup"
+    },
+    {
+      "provider": "serper",
+      "purpose": "profile_lookup",
+      "requests": 26,
+      "results": 189,
+      "errors": 0,
+      "cost_usd": 0.026,
+      "cost_source": "estimate (Serper-reported credits x $1.0/1k)",
+      "stage": "profile_lookup"
+    },
+    {
+      "provider": "serper",
+      "purpose": "profile_lookup",
+      "requests": 21,
+      "results": 66,
+      "errors": 0,
+      "cost_usd": 0.021,
+      "cost_source": "estimate (Serper-reported credits x $1.0/1k)",
+      "stage": "profile_lookup"
+    },
+    {
+      "provider": "exa",
+      "purpose": "contents",
+      "requests": 1,
+      "results": 24,
+      "errors": 1,
+      "cost_usd": 0.024,
+      "cost_source": "provider-reported (costDollars)",
+      "stage": "profile_lookup"
+    }
+  ],
+  "estimated_search_cost_usd": 0.642,
+  "estimated_total_cost_usd": 0.742321,
+  "pricing": {
+    "llm_input_usd_per_mtok": 0.1,
+    "llm_output_usd_per_mtok": 0.5,
+    "source": "LLM_PRICE_*_PER_MTOK (as of 2026-10-06)"
+  },
+  "counts": {
+    "profile_lookup": {
+      "looked_up": 33,
+      "found": 15,
+      "not_found": 18
+    },
+    "entity_resolution": {
+      "records_in": 310,
+      "identities": 294,
+      "records_out": 294,
+      "merged_records": 16,
+      "within_group_duplicates": 16,
+      "cross_group_identities": 0,
+      "ambiguous_pairs": 0,
+      "llm_merges": 0
+    },
+    "verification": {
+      "eligible": 116,
+      "ineligible": 175,
+      "needs_review": 3,
+      "ineligible:relevant_position": 105,
+      "ineligible:employment_status": 156,
+      "ineligible:exclusion": 32,
+      "needs_review:evidence": 1,
+      "needs_review:employment_status": 2,
+      "needs_review:identity": 1,
+      "ineligible:target_evidence": 27,
+      "ineligible:excluded_role": 5
+    },
+    "ranking": {
+      "llm_assessed": 128,
+      "verdicts_reused": 304,
+      "assessed": 116,
+      "rejected_by_ranking": 6,
+      "unclear": 23,
+      "returned": 60
+    }
+  },
+  "errors": []
+}

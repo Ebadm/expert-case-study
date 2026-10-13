@@ -1,0 +1,434 @@
+{
+  "schema_version": "1",
+  "brief_id": "tungsten_automation",
+  "source_sha256": "4ed9274180fd3e32e4d49a4c7ff04006892af4433678c8b32bfd216f0abd3b47",
+  "looked_up_at": "2026-10-11T14:43:33.633251Z",
+  "lookups": [
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:matthew_miles-tui",
+      "name": "Matthew Miles",
+      "organisation": "TUI",
+      "query": "site:linkedin.com/in \"Matthew Miles\" TUI | site:linkedin.com/in Matthew Miles TUI",
+      "outcome": "found",
+      "profile_url": "https://uk.linkedin.com/in/matthew-miles-2b585825",
+      "profile_candidate_id": "customers:matthew-miles-2b585825",
+      "matches": [
+        "https://linkedin.com/in/matthew-miles-2b585825"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:jeanette_askin-damart",
+      "name": "Jeanette Askin",
+      "organisation": "Damart",
+      "query": "site:linkedin.com/in \"Jeanette Askin\" Damart | site:linkedin.com/in Jeanette Askin Damart | site:linkedin.com/in \"Askin\" \"Damart\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:jarkko_hanhim_ki-kemira",
+      "name": "Jarkko Hanhimäki",
+      "organisation": "Kemira",
+      "query": "site:linkedin.com/in \"Jarkko Hanhimäki\" Kemira | site:linkedin.com/in Jarkko Hanhimaki Kemira | site:linkedin.com/in \"Hanhimäki\" \"Kemira\"",
+      "outcome": "found",
+      "profile_url": "https://fi.linkedin.com/in/jarkkohanhimaki7143441",
+      "profile_candidate_id": "customers:jarkkohanhimaki7143441",
+      "matches": [
+        "https://linkedin.com/in/jarkkohanhimaki7143441"
+      ],
+      "accepted_on": "profile_text"
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:mark_wiebe-ryder_system",
+      "name": "Mark Wiebe",
+      "organisation": "Ryder System, Inc.",
+      "query": "site:linkedin.com/in \"Mark Wiebe\" Ryder System,",
+      "outcome": "found",
+      "profile_url": "https://www.linkedin.com/in/mark-wiebe-2274786",
+      "profile_candidate_id": "customers:mark-wiebe-2274786",
+      "matches": [
+        "https://linkedin.com/in/mark-wiebe-2274786"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:chandana_gurusinghe-mas_legato",
+      "name": "Chandana Gurusinghe",
+      "organisation": "MAS Legato Pvt Ltd",
+      "query": "site:linkedin.com/in \"Chandana Gurusinghe\" MAS Legato",
+      "outcome": "found",
+      "profile_url": "https://lk.linkedin.com/in/chandana-gurusinghe-01a658136",
+      "profile_candidate_id": "customers:chandana-gurusinghe-01a658136",
+      "matches": [
+        "https://linkedin.com/in/chandana-gurusinghe-01a658136"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:ruediger_adam-deutsche_telekom",
+      "name": "Ruediger Adam",
+      "organisation": "Deutsche Telekom",
+      "query": "site:linkedin.com/in \"Ruediger Adam\" Deutsche Telekom | site:linkedin.com/in Ruediger Adam Deutsche Telekom | site:linkedin.com/in \"Adam\" \"Deutsche Telekom\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:hugo_oberholzer-sanlam",
+      "name": "Hugo Oberholzer",
+      "organisation": "Sanlam",
+      "query": "site:linkedin.com/in \"Hugo Oberholzer\" Sanlam | site:linkedin.com/in Hugo Oberholzer Sanlam | site:linkedin.com/in \"Oberholzer\" \"Sanlam\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:harold_jooste-uwc",
+      "name": "Harold Jooste",
+      "organisation": "UWC",
+      "query": "site:linkedin.com/in \"Harold Jooste\" UWC | site:linkedin.com/in Harold Jooste UWC | site:linkedin.com/in \"Jooste\" \"UWC\"",
+      "outcome": "found",
+      "profile_url": "https://za.linkedin.com/in/harold-jooste-75522b26",
+      "profile_candidate_id": "customers:harold-jooste-75522b26",
+      "matches": [
+        "https://linkedin.com/in/harold-jooste-75522b26"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:harald_krouza-unicredit_leasing",
+      "name": "Harald Krouza",
+      "organisation": "UniCredit Leasing",
+      "query": "site:linkedin.com/in \"Harald Krouza\" UniCredit Leasing | site:linkedin.com/in Harald Krouza UniCredit Leasing | site:linkedin.com/in \"Krouza\" \"UniCredit Leasing\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:brian_harris-loma_linda_university",
+      "name": "Brian Harris",
+      "organisation": "Loma Linda University",
+      "query": "site:linkedin.com/in \"Brian Harris\" Loma Linda University | site:linkedin.com/in Brian Harris Loma Linda University | site:linkedin.com/in \"Harris\" \"Loma Linda University\"",
+      "outcome": "found",
+      "profile_url": "https://www.linkedin.com/in/bharris333",
+      "profile_candidate_id": "customers:bharris333",
+      "matches": [
+        "https://linkedin.com/in/bharris333"
+      ],
+      "accepted_on": "work_history"
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:anne_kavanagh-hertz",
+      "name": "Anne Kavanagh",
+      "organisation": "Hertz",
+      "query": "site:linkedin.com/in \"Anne Kavanagh\" Hertz | site:linkedin.com/in Anne Kavanagh Hertz | site:linkedin.com/in \"Kavanagh\" \"Hertz\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:luciano_dani-region_stockholm",
+      "name": "Luciano Dani",
+      "organisation": "Region Stockholm",
+      "query": "site:linkedin.com/in \"Luciano Dani\" Region Stockholm | site:linkedin.com/in Luciano Dani Region Stockholm | site:linkedin.com/in \"Dani\" \"Region Stockholm\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:nathaniel_palmer-serco",
+      "name": "Nathaniel Palmer",
+      "organisation": "Serco",
+      "query": "site:linkedin.com/in \"Nathaniel Palmer\" Serco | site:linkedin.com/in Nathaniel Palmer Serco",
+      "outcome": "found",
+      "profile_url": "https://www.linkedin.com/in/intelligentautomation",
+      "profile_candidate_id": "customers:intelligentautomation",
+      "matches": [
+        "https://linkedin.com/in/intelligentautomation"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:petra_van_den_broek-spie_netherlands",
+      "name": "Petra van den Broek",
+      "organisation": "SPIE Netherlands",
+      "query": "site:linkedin.com/in \"Petra van den Broek\" SPIE Netherlands | site:linkedin.com/in Petra van den Broek SPIE Netherlands | site:linkedin.com/in \"Broek\" \"SPIE Netherlands\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:koen_vellheuer-spie_netherlands",
+      "name": "Koen Vellheuer",
+      "organisation": "SPIE Netherlands",
+      "query": "site:linkedin.com/in \"Koen Vellheuer\" SPIE Netherlands | site:linkedin.com/in Koen Vellheuer SPIE Netherlands | site:linkedin.com/in \"Vellheuer\" \"SPIE Netherlands\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:doug_potvin-trinity_logistics",
+      "name": "Doug Potvin",
+      "organisation": "Trinity Logistics",
+      "query": "site:linkedin.com/in \"Doug Potvin\" Trinity Logistics",
+      "outcome": "found",
+      "profile_url": "https://www.linkedin.com/in/dougpotvin",
+      "profile_candidate_id": "customers:dougpotvin",
+      "matches": [
+        "https://linkedin.com/in/dougpotvin"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:maik_zimmermann-abb_schweiz",
+      "name": "Maik Zimmermann",
+      "organisation": "ABB Schweiz",
+      "query": "site:linkedin.com/in \"Maik Zimmermann\" ABB Schweiz | site:linkedin.com/in Maik Zimmermann ABB Schweiz | site:linkedin.com/in \"Zimmermann\" \"ABB Schweiz\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:dale_colliver-toyota_industries_north_america",
+      "name": "Dale Colliver",
+      "organisation": "Toyota Industries North America",
+      "query": "site:linkedin.com/in \"Dale Colliver\" Toyota Industries North America | site:linkedin.com/in Dale Colliver Toyota Industries North America | site:linkedin.com/in \"Colliver\" \"Toyota Industries North America\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:patrick_eden-cerner",
+      "name": "Patrick Eden",
+      "organisation": "Cerner",
+      "query": "site:linkedin.com/in \"Patrick Eden\" Cerner | site:linkedin.com/in Patrick Eden Cerner",
+      "outcome": "found",
+      "profile_url": "https://www.linkedin.com/in/patrick-eden-5125378",
+      "profile_candidate_id": "customers:patrick-eden-5125378",
+      "matches": [
+        "https://linkedin.com/in/patrick-eden-5125378"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:reginald_l_brown-union_bank",
+      "name": "Reginald L. Brown",
+      "organisation": "Union Bank",
+      "query": "site:linkedin.com/in \"Reginald L. Brown\" Union Bank | site:linkedin.com/in Reginald L. Brown Union Bank | site:linkedin.com/in \"Brown\" \"Union Bank\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:alan_ronald-devro",
+      "name": "Alan Ronald",
+      "organisation": "Devro",
+      "query": "site:linkedin.com/in \"Alan Ronald\" Devro",
+      "outcome": "found",
+      "profile_url": "https://uk.linkedin.com/in/alan-ronald",
+      "profile_candidate_id": "customers:alan-ronald",
+      "matches": [
+        "https://linkedin.com/in/alan-ronald"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:glenn_mead-suncorp",
+      "name": "Glenn Mead",
+      "organisation": "Suncorp",
+      "query": "site:linkedin.com/in \"Glenn Mead\" Suncorp",
+      "outcome": "found",
+      "profile_url": "https://au.linkedin.com/in/glennmead",
+      "profile_candidate_id": "customers:glennmead",
+      "matches": [
+        "https://linkedin.com/in/glennmead"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:stuart_nielsen-suncorp_bank",
+      "name": "Stuart Nielsen",
+      "organisation": "Suncorp Bank",
+      "query": "site:linkedin.com/in \"Stuart Nielsen\" Suncorp Bank | site:linkedin.com/in Stuart Nielsen Suncorp Bank | site:linkedin.com/in \"Nielsen\" \"Suncorp Bank\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:miroslav_belote-jfk_health",
+      "name": "Miroslav Belote",
+      "organisation": "JFK Health",
+      "query": "site:linkedin.com/in \"Miroslav Belote\" JFK Health | site:linkedin.com/in Miroslav Belote JFK Health",
+      "outcome": "found",
+      "profile_url": "https://www.linkedin.com/in/miroslav-belote-2104055",
+      "profile_candidate_id": "customers:miroslav-belote-2104055",
+      "matches": [
+        "https://linkedin.com/in/miroslav-belote-2104055"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:juan_pablo_magro_mu_oz-mataro_city_council",
+      "name": "Juan Pablo Magro Muñoz",
+      "organisation": "Mataró City Council",
+      "query": "site:linkedin.com/in \"Juan Pablo Magro Muñoz\" Mataró City Council | site:linkedin.com/in Juan Pablo Magro Munoz Mataró City Council | site:linkedin.com/in \"Muñoz\" \"Mataró City Council\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:gabrie_gunst-de_goudse_verzekeringen",
+      "name": "Gabrie Gunst",
+      "organisation": "De Goudse Verzekeringen",
+      "query": "site:linkedin.com/in \"Gabrie Gunst\" De Goudse Verzekeringen | site:linkedin.com/in Gabrie Gunst De Goudse Verzekeringen | site:linkedin.com/in \"Gunst\" \"De Goudse Verzekeringen\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:debbie_salanda-budget",
+      "name": "Debbie Salanda",
+      "organisation": "Budget",
+      "query": "site:linkedin.com/in \"Debbie Salanda\" Budget | site:linkedin.com/in Debbie Salanda Budget | site:linkedin.com/in \"Salanda\" \"Budget\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:jeff_stratton-amn_healthcare",
+      "name": "Jeff Stratton",
+      "organisation": "AMN Healthcare",
+      "query": "site:linkedin.com/in \"Jeff Stratton\" AMN Healthcare | site:linkedin.com/in Jeff Stratton AMN Healthcare | site:linkedin.com/in \"Stratton\" \"AMN Healthcare\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:m_rcio_rog_rio_de_lima-arteris",
+      "name": "Márcio Rogério de Lima",
+      "organisation": "Arteris",
+      "query": "site:linkedin.com/in \"Márcio Rogério de Lima\" Arteris | site:linkedin.com/in Marcio Rogerio de Lima Arteris",
+      "outcome": "found",
+      "profile_url": "https://br.linkedin.com/in/marciorlima",
+      "profile_candidate_id": "customers:marciorlima",
+      "matches": [
+        "https://linkedin.com/in/marciorlima"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:ferdia_doherty-myhealth_medical_group",
+      "name": "Ferdia Doherty",
+      "organisation": "Myhealth Medical Group",
+      "query": "site:linkedin.com/in \"Ferdia Doherty\" Myhealth Medical Group | site:linkedin.com/in Ferdia Doherty Myhealth Medical Group | site:linkedin.com/in \"Doherty\" \"Myhealth Medical Group\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:bart_de_backer-kbc",
+      "name": "Bart De Backer",
+      "organisation": "KBC",
+      "query": "site:linkedin.com/in \"Bart De Backer\" KBC",
+      "outcome": "found",
+      "profile_url": "https://be.linkedin.com/in/bart-de-backer-63665012",
+      "profile_candidate_id": "customers:bart-de-backer-63665012",
+      "matches": [
+        "https://linkedin.com/in/bart-de-backer-63665012"
+      ],
+      "accepted_on": "search_result"
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:jim_king-crete_carrier",
+      "name": "Jim King",
+      "organisation": "Crete Carrier",
+      "query": "site:linkedin.com/in \"Jim King\" Crete Carrier | site:linkedin.com/in Jim King Crete Carrier | site:linkedin.com/in \"King\" \"Crete Carrier\"",
+      "outcome": "not_found",
+      "profile_url": null,
+      "profile_candidate_id": null,
+      "matches": [],
+      "accepted_on": null
+    },
+    {
+      "group_id": "customers",
+      "candidate_id": "customers:page:caroline_deans-amcor",
+      "name": "Caroline Deans",
+      "organisation": "Amcor",
+      "query": "site:linkedin.com/in \"Caroline Deans\" Amcor",
+      "outcome": "found",
+      "profile_url": "https://uk.linkedin.com/in/caroline-deans-1b973090",
+      "profile_candidate_id": "customers:caroline-deans-1b973090",
+      "matches": [
+        "https://linkedin.com/in/caroline-deans-1b973090"
+      ],
+      "accepted_on": "search_result"
+    }
+  ]
+}

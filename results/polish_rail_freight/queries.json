@@ -1,0 +1,447 @@
+{
+  "schema_version": "1",
+  "brief_id": "polish_rail_freight",
+  "source_sha256": "4686fb669d6298d7d6e61757e8ca83b008e8e35e0ddaf830ade53b9942381dbc",
+  "spec_parsed_at": "2026-10-11T15:15:08.463805Z",
+  "generator": {
+    "model": "claude-haiku-5-5",
+    "effort": "medium",
+    "generated_at": "2026-10-11T15:15:08.712228Z"
+  },
+  "queries_per_provider": 5,
+  "xray_queries_per_group": 20,
+  "groups": [
+    {
+      "group_id": "former_network_planning_access",
+      "mode": "companies_then_people",
+      "role_keywords": [
+        "network planning",
+        "capacity",
+        "train paths",
+        "access charges",
+        "regulation"
+      ],
+      "topic_keywords": [
+        "access charges",
+        "train path allocation",
+        "capacity allocation",
+        "network statement"
+      ],
+      "title_keywords": [
+        "lead",
+        "head",
+        "manager",
+        "kierownik",
+        "dyrektor",
+        "szef"
+      ],
+      "queries": [
+        {
+          "query_id": "former_network_planning_access.company.serper.01",
+          "group_id": "former_network_planning_access",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "\"PKP PLK\" network statement train path allocation",
+          "language": "en",
+          "intent": "infrastructure manager pages describing its train path allocation and network statement",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_network_planning_access.company.serper.02",
+          "group_id": "former_network_planning_access",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "opłaty za dostęp do infrastruktury kolejowej PKP PLK stawki",
+          "language": "pl",
+          "intent": "Polish infrastructure manager pages on how access charge rates are set",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_network_planning_access.company.serper.03",
+          "group_id": "former_network_planning_access",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "Urząd Transportu Kolejowego opłaty za dostęp do infrastruktury decyzja",
+          "language": "pl",
+          "intent": "rail regulator decisions and publications on access charges",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_network_planning_access.company.serper.04",
+          "group_id": "former_network_planning_access",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "\"przydział tras pociągowych\" zarządca infrastruktury przepustowość linii",
+          "language": "pl",
+          "intent": "organisations publishing train path allocation and capacity on congested lines",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_network_planning_access.company.serper.05",
+          "group_id": "former_network_planning_access",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "Polish rail regulator access charges railway infrastructure market report",
+          "language": "en",
+          "intent": "regulator or industry publications on access charges and infrastructure access in Poland",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_network_planning_access.company.exa.01",
+          "group_id": "former_network_planning_access",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "Polish railway infrastructure manager publishing its network statement describing train path allocation and capacity on congested main lines",
+          "language": "en",
+          "intent": "infrastructure manager pages on network statement and capacity allocation",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_network_planning_access.company.exa.02",
+          "group_id": "former_network_planning_access",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "Polish rail regulator decisions and guidance on infrastructure access charges and charging rules for freight operators",
+          "language": "en",
+          "intent": "regulator pages on how access charges are set and reviewed",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_network_planning_access.company.exa.03",
+          "group_id": "former_network_planning_access",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "wyjaśnienia i komunikaty dotyczące zasad ustalania opłat za dostęp do infrastruktury kolejowej w Polsce",
+          "language": "pl",
+          "intent": "Polish official publications explaining how access charges are determined",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_network_planning_access.company.exa.04",
+          "group_id": "former_network_planning_access",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "press release from the Polish national rail infrastructure manager about capacity constraints and new timetable paths on congested corridors",
+          "language": "en",
+          "intent": "press releases from the infrastructure manager on corridor capacity and path availability",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_network_planning_access.company.exa.05",
+          "group_id": "former_network_planning_access",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "industry conference programme on access charges and train path allocation in the Polish rail sector hosted by infrastructure manager or regulator",
+          "language": "en",
+          "intent": "conference pages naming the infrastructure manager and regulator as organisations discussing access and paths",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        }
+      ]
+    },
+    {
+      "group_id": "former_private_freight_operators",
+      "mode": "companies_then_people",
+      "role_keywords": [
+        "operations",
+        "commercial",
+        "fleet"
+      ],
+      "topic_keywords": [
+        "rail freight",
+        "intermodal",
+        "locomotive fleet",
+        "driver shortage"
+      ],
+      "title_keywords": [
+        "lead",
+        "head",
+        "manager",
+        "kierownik",
+        "dyrektor"
+      ],
+      "queries": [
+        {
+          "query_id": "former_private_freight_operators.company.serper.01",
+          "group_id": "former_private_freight_operators",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "private rail freight operators Poland intermodal coal market share",
+          "language": "en",
+          "intent": "Market reports and rankings naming private rail freight operators in Poland and their shift from coal to intermodal",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_private_freight_operators.company.serper.02",
+          "group_id": "former_private_freight_operators",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "przewoźnicy kolejowi towarowi prywatni ranking udział w rynku",
+          "language": "pl",
+          "intent": "Polish rankings and market statistics listing private rail freight carriers by volume",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_private_freight_operators.company.serper.03",
+          "group_id": "former_private_freight_operators",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "Captrain Polska OR PCC Intermodal OR Freightliner PL case study",
+          "language": "en",
+          "intent": "Company pages and case studies of named private freight operators active in Poland",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_private_freight_operators.company.serper.04",
+          "group_id": "former_private_freight_operators",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "tabor lokomotyw wynajem przewoźnik towarowy Polska raport",
+          "language": "pl",
+          "intent": "Reports and press items on locomotive fleet leasing and traction at Polish freight carriers",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_private_freight_operators.company.serper.05",
+          "group_id": "former_private_freight_operators",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "site:rynekkolejowy.pl przewoźnicy towarowi brak maszynistów",
+          "language": "pl",
+          "intent": "Trade press articles on private freight operators and the driver shortage",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_private_freight_operators.company.exa.01",
+          "group_id": "former_private_freight_operators",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "private rail freight companies operating in Poland beyond coal, offering intermodal and container train services",
+          "language": "en",
+          "intent": "Company pages and market overviews of independent Polish rail freight operators diversifying into intermodal",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_private_freight_operators.company.exa.02",
+          "group_id": "former_private_freight_operators",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "press release announcing a new rail freight operating licence in Poland and the first commercial freight train",
+          "language": "en",
+          "intent": "Press releases of private freight operators that launched a new licence or corridor service in Poland",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_private_freight_operators.company.exa.03",
+          "group_id": "former_private_freight_operators",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "industry analysis of locomotive fleet leasing and traction costs at independent freight train operators in Poland",
+          "language": "en",
+          "intent": "Analyses and reports naming private Polish freight operators discussing fleet and traction economics",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_private_freight_operators.company.exa.04",
+          "group_id": "former_private_freight_operators",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "polska firma przewozowa kolejowa towarowa przejęła tabor lokomotyw i uruchomiła przewozy kontenerów",
+          "language": "pl",
+          "intent": "Polish news and company announcements of private freight carriers acquiring locomotives and running container trains",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "former_private_freight_operators.company.exa.05",
+          "group_id": "former_private_freight_operators",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "raport o rynku przewozów towarowych koleją w Polsce, przewoźnicy prywatni, brak maszynistów i węgiel",
+          "language": "pl",
+          "intent": "Sector reports and conference materials naming private Polish freight carriers and workforce shortages",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        }
+      ]
+    },
+    {
+      "group_id": "terminal_intermodal_operators",
+      "mode": "companies_then_people",
+      "role_keywords": [
+        "terminal",
+        "intermodal",
+        "operations",
+        "logistics",
+        "commercial"
+      ],
+      "topic_keywords": [
+        "intermodal terminal",
+        "rail-road transfer",
+        "transhipment",
+        "intermodal service"
+      ],
+      "title_keywords": [],
+      "queries": [
+        {
+          "query_id": "terminal_intermodal_operators.company.serper.01",
+          "group_id": "terminal_intermodal_operators",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "intermodal terminal Poland rail-road transfer operator",
+          "language": "en",
+          "intent": "terminal operators in Poland handling rail-road transfer",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "terminal_intermodal_operators.company.serper.02",
+          "group_id": "terminal_intermodal_operators",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "terminal intermodalny przeładunek kontenerów kolej Polska",
+          "language": "pl",
+          "intent": "Polish intermodal terminal operators with container transhipment",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "terminal_intermodal_operators.company.serper.03",
+          "group_id": "terminal_intermodal_operators",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "operator terminala intermodalnego przeładunek naczep kolej",
+          "language": "pl",
+          "intent": "operators of rail-road terminals handling trailers and swap bodies",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "terminal_intermodal_operators.company.serper.04",
+          "group_id": "terminal_intermodal_operators",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "intermodal rail service launch Poland terminal case study",
+          "language": "en",
+          "intent": "case studies of intermodal services launched from Polish terminals",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "terminal_intermodal_operators.company.serper.05",
+          "group_id": "terminal_intermodal_operators",
+          "provider": "serper",
+          "query_type": "company",
+          "query": "terminal przeładunkowy uruchomienie połączenia intermodalnego pociągi",
+          "language": "pl",
+          "intent": "press releases on new intermodal train connections from Polish terminals",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "terminal_intermodal_operators.company.exa.01",
+          "group_id": "terminal_intermodal_operators",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "companies operating a rail-road intermodal terminal in Poland that transfer containers and swap bodies between trains and trucks",
+          "language": "en",
+          "intent": "independent terminal operators in Poland with public terminal pages",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "terminal_intermodal_operators.company.exa.02",
+          "group_id": "terminal_intermodal_operators",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "press release announcing the launch of a new intermodal rail service from a terminal in Poland",
+          "language": "en",
+          "intent": "organisations that recently launched intermodal services in Poland",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "terminal_intermodal_operators.company.exa.03",
+          "group_id": "terminal_intermodal_operators",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "firmy prowadzące terminal intermodalny w Polsce, przeładunek kontenerów między koleją a drogą",
+          "language": "pl",
+          "intent": "Polish companies running intermodal terminals with rail-road transfer",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "terminal_intermodal_operators.company.exa.04",
+          "group_id": "terminal_intermodal_operators",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "artykuł o uruchomieniu nowej usługi intermodalnej z terminala kolejowego w Polsce",
+          "language": "pl",
+          "intent": "Polish news coverage of new intermodal services from rail terminals",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        },
+        {
+          "query_id": "terminal_intermodal_operators.company.exa.05",
+          "group_id": "terminal_intermodal_operators",
+          "provider": "exa",
+          "query_type": "company",
+          "query": "logistics operator in Poland that moved road freight onto intermodal rail through its own terminal, with a published case study",
+          "language": "en",
+          "intent": "intermodal operators showing road-to-rail shift in public case studies",
+          "organisation": null,
+          "first_page": 1,
+          "max_pages": null
+        }
+      ]
+    }
+  ],
+  "validation_warnings": []
+}

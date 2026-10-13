@@ -1,0 +1,37 @@
+[project]
+name = "sourcing-agent"
+version = "0.1.0"
+description = "Research agent that turns a project brief into a ranked, evidence-backed expert shortlist."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=1.13,<2",
+    "httpx>=0.27,<1",
+    "pydantic>=2.7,<3",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+sourcing-agent = "sourcing_agent.cli:main"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 120
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+# Pyflakes (undefined names, unused imports) and import order.
+select = ["F", "I"]

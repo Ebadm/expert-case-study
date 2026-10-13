@@ -1,0 +1,436 @@
+{
+  "schema_version": "1",
+  "brief_id": "tungsten_automation",
+  "source_sha256": "4ed9274180fd3e32e4d49a4c7ff04006892af4433678c8b32bfd216f0abd3b47",
+  "spec_parsed_at": "2026-10-11T14:39:33.890366Z",
+  "generator": {
+    "model": "templates",
+    "effort": "n/a",
+    "generated_at": "2026-10-11T14:42:39.441458Z"
+  },
+  "queries_per_provider": 5,
+  "xray_queries_per_group": 40,
+  "groups": [
+    {
+      "group_id": "customers",
+      "mode": "people",
+      "role_keywords": [
+        "automation",
+        "document processing",
+        "shared services",
+        "IT director",
+        "CoE"
+      ],
+      "topic_keywords": [
+        "Kofax",
+        "Tungsten Automation",
+        "intelligent document processing",
+        "document capture"
+      ],
+      "title_keywords": [],
+      "queries": [
+        {
+          "query_id": "customers.orgpeople.serper.01",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"AMN Healthcare\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at AMN Healthcare mentioning Tungsten Automation",
+          "organisation": "AMN Healthcare"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.02",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Safe-Guard Products\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Safe-Guard Products mentioning Tungsten Automation",
+          "organisation": "Safe-Guard Products"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.03",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Damart\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Damart mentioning Tungsten Automation",
+          "organisation": "Damart"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.04",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"KBC\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at KBC mentioning Tungsten Automation",
+          "organisation": "KBC"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.05",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Kemira\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Kemira mentioning Tungsten Automation",
+          "organisation": "Kemira"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.06",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"MAS Legato Pvt Ltd\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at MAS Legato Pvt Ltd mentioning Tungsten Automation",
+          "organisation": "MAS Legato Pvt Ltd"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.07",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Serco\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Serco mentioning Tungsten Automation",
+          "organisation": "Serco"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.08",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"ABB Schweiz\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at ABB Schweiz mentioning Tungsten Automation",
+          "organisation": "ABB Schweiz"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.09",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Amcor\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Amcor mentioning Tungsten Automation",
+          "organisation": "Amcor"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.10",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Arteris\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Arteris mentioning Tungsten Automation",
+          "organisation": "Arteris"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.11",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Aviva\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Aviva mentioning Tungsten Automation",
+          "organisation": "Aviva"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.12",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Bergelectric\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Bergelectric mentioning Tungsten Automation",
+          "organisation": "Bergelectric"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.13",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Budget\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Budget mentioning Tungsten Automation",
+          "organisation": "Budget"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.14",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Cerner\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Cerner mentioning Tungsten Automation",
+          "organisation": "Cerner"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.15",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Crete Carrier Corporation\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Crete Carrier Corporation mentioning Tungsten Automation",
+          "organisation": "Crete Carrier Corporation"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.16",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"De Goudse Verzekeringen\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at De Goudse Verzekeringen mentioning Tungsten Automation",
+          "organisation": "De Goudse Verzekeringen"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.17",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Deutsche Telekom\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Deutsche Telekom mentioning Tungsten Automation",
+          "organisation": "Deutsche Telekom"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.18",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Devro\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Devro mentioning Tungsten Automation",
+          "organisation": "Devro"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.19",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Hertz\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Hertz mentioning Tungsten Automation",
+          "organisation": "Hertz"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.20",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Integrated Health Systems\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Integrated Health Systems mentioning Tungsten Automation",
+          "organisation": "Integrated Health Systems"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.21",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"JFK Health\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at JFK Health mentioning Tungsten Automation",
+          "organisation": "JFK Health"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.22",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Loma Linda University\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Loma Linda University mentioning Tungsten Automation",
+          "organisation": "Loma Linda University"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.23",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Mataró City Council\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Mataró City Council mentioning Tungsten Automation",
+          "organisation": "Mataró City Council"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.24",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Myhealth Medical Group\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Myhealth Medical Group mentioning Tungsten Automation",
+          "organisation": "Myhealth Medical Group"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.25",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Region Stockholm\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Region Stockholm mentioning Tungsten Automation",
+          "organisation": "Region Stockholm"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.26",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Ryder System, Inc.\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Ryder System, Inc. mentioning Tungsten Automation",
+          "organisation": "Ryder System, Inc."
+        },
+        {
+          "query_id": "customers.orgpeople.serper.27",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Safe-Guard\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Safe-Guard mentioning Tungsten Automation",
+          "organisation": "Safe-Guard"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.28",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Sanlam\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Sanlam mentioning Tungsten Automation",
+          "organisation": "Sanlam"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.29",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"SPIE Netherlands\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at SPIE Netherlands mentioning Tungsten Automation",
+          "organisation": "SPIE Netherlands"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.30",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Suncorp Group\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Suncorp Group mentioning Tungsten Automation",
+          "organisation": "Suncorp Group"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.31",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Toyota Industrial Mfg., Inc.\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Toyota Industrial Mfg., Inc. mentioning Tungsten Automation",
+          "organisation": "Toyota Industrial Mfg., Inc."
+        },
+        {
+          "query_id": "customers.orgpeople.serper.32",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Toyota Industries North America\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Toyota Industries North America mentioning Tungsten Automation",
+          "organisation": "Toyota Industries North America"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.33",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Toyota Material Handling, U.S.A.\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Toyota Material Handling, U.S.A. mentioning Tungsten Automation",
+          "organisation": "Toyota Material Handling, U.S.A."
+        },
+        {
+          "query_id": "customers.orgpeople.serper.34",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"TransMontaigne\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at TransMontaigne mentioning Tungsten Automation",
+          "organisation": "TransMontaigne"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.35",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Trinity Logistics\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Trinity Logistics mentioning Tungsten Automation",
+          "organisation": "Trinity Logistics"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.36",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"TUI\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at TUI mentioning Tungsten Automation",
+          "organisation": "TUI"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.37",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"TUI Group\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at TUI Group mentioning Tungsten Automation",
+          "organisation": "TUI Group"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.38",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"UniCredit Leasing\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at UniCredit Leasing mentioning Tungsten Automation",
+          "organisation": "UniCredit Leasing"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.39",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"Union Bank\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at Union Bank mentioning Tungsten Automation",
+          "organisation": "Union Bank"
+        },
+        {
+          "query_id": "customers.orgpeople.serper.40",
+          "group_id": "customers",
+          "provider": "serper",
+          "query_type": "people",
+          "query": "site:linkedin.com/in \"United Bank Limited\" (\"Tungsten Automation\" OR \"Kofax\") -\"at Tungsten Automation\" -\"at Kofax\" -\"Tungsten Automation · Present\" -\"Kofax · Present\" -site:linkedin.com/in/dir",
+          "language": "en",
+          "intent": "LinkedIn profiles at United Bank Limited mentioning Tungsten Automation",
+          "organisation": "United Bank Limited"
+        }
+      ]
+    }
+  ],
+  "validation_warnings": []
+}

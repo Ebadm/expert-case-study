@@ -834,7 +834,6 @@ review list to see whether the verdict is too strict.
 **What went wrong (agent slips, each caught by a check):**
 - A file split copied relative imports verbatim, so a module moved one level deeper
   imported `.models`. Caught by importing every module.
-- `git mv` failed on untracked files mid-move.
 - The profile-lookup stage rewrote its file on every run, so a re-run with nobody left to
   look up emptied it.
 - Settings defaults were declared up to three times, and LLM prices lived in a code
@@ -895,4 +894,3 @@ where.
   "Tungsten Network, a Kofax company" with nothing hard-coded.
 - **Where the agent corrected me:** Haiku reading result pages (entry 5), `deep` for
   people search (entry 6), and where the money goes (entry 9).
-- **Code I didn't fully follow at first:** [fill in, and whether you kept it].

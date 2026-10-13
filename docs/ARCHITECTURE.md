@@ -307,6 +307,27 @@ Exa search hits already carry content.
   ("competitors: 28 qualified candidates (target 25) after 50 of 315 profiles; the other 265
   were not read").
 
+**What the early stop did on the committed runs** (warnings in `candidates.json`):
+
+| Group | Profiles found by search | Read | Qualified when it stopped | Also skipped |
+|---|---|---|---|---|
+| Tungsten former employees | 328 | 150 | 26 | 2 Exa people queries |
+| Tungsten customers | 77 (plus people named on case studies) | 50 | 29 | 30 stage-5 people searches |
+| Tungsten competitors | 315 | 50 | 28 | 5 Exa people queries |
+| Polish terminal operators | 77 | 50 | 33 | 35 stage-5 people searches |
+| Polish freight operators | 898 | all | never reached 25 (20 at the end) | nothing: searched as deep as allowed |
+| Polish infrastructure planners | 425 | all | never reached 25 (0 at the end) | nothing: searched as deep as allowed |
+
+Result counts are therefore not the limit of what the search can find:
+- **A group that stops early has met the final list's own test** for 25 people, 5 more
+  than it returns.
+- **Profiles are read best-ranked first,** so the unread ones are the lower-ranked
+  results. They are skipped as unnecessary, not rejected.
+- **A group still short reads everything it can,** including later Google pages, Exa
+  and every discovered organisation.
+- **Setting `TARGET_CANDIDATES_PER_GROUP=0`** turns the stop off, reading everything at
+  a higher cost.
+
 **Organisation matching** (`extraction/orgs.py`, all code). Employer strings vary
 ("Kofax India Pvt. Ltd.", "Tungsten Automation, a Kofax company", "PKP Polskich Linii
 Kolejowych"). `name_matches` compares whole token runs after normalising accents, case,
